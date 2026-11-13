@@ -2,6 +2,11 @@
 
 Consulta documental local sobre Atende+, Bilhete Único Especial PcD, acessibilidade do Metrô de São Paulo e transporte na Lei Brasileira de Inclusão. A LLM local seleciona evidências verificáveis e reconhece cobertura parcial, ausência de informação e limites de atuação. Não consulta operação em tempo real nem decide elegibilidade individual.
 
+## Grupo
+- Cassio Valezzi RM551059
+- Gabriel Antony Cadima Ciziks RM98215
+- Lucca Sabatini Tambellini RM98169
+- Victor Nuzzi RM98209.
 ## Executar
 
 Requisitos: Python 3.12, [uv](https://docs.astral.sh/uv/), espaço para o GGUF (~2,5 GB) e embeddings, servidor [llama.cpp b12287](https://github.com/ggml-org/llama.cpp/releases/tag/b12287). A execução medida usou Windows, RTX3060 12GiB, CUDA12.4; embeddings usam CPU. Nenhum peso, binário ou ambiente virtual integra o Git.
@@ -77,4 +82,4 @@ Snapshot entregue: 114 trechos de sete fontes oficiais, 100 casos e rodada final
 
 Resultados pertencem à nova base oficial. A auditoria automática é identificada e não representa revisão humana; campos não avaliáveis permanecem explícitos. Desempenho e limitações estão no relatório, sem garantia de nota. Repositório privado preservado. Vídeo: link pendente de gravação e fornecimento pelo usuário.
 
-Cassio Valezzi RM551059 · Gabriel Antony Cadima Ciziks RM98215 · Lucca Sabatini Tambellini RM98169 · Victor Nuzzi RM98209.
+
