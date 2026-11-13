@@ -30,7 +30,11 @@ def main():
             assert code and all(c.get("execution_count") is not None for c in code),f"Notebook não executado: {path.name}"
     data={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.name!="artefatos.json"}
     target=ROOT/"docs/evidencias/artefatos.json";target.parent.mkdir(parents=True,exist_ok=True)
-    target.write_text(json.dumps({"files":data,"count":len(data),"selection":"allowlist de código, dados documentais, testes, notebooks executados e evidências"},ensure_ascii=False,indent=2),encoding="utf8")
+    target.write_text(
+        json.dumps({"files":data,"count":len(data),"selection":"allowlist de código, dados documentais, testes, notebooks executados e evidências"},ensure_ascii=False,indent=2),
+        encoding="utf8",
+        newline="\n",
+    )
     package=ROOT/".runtime/guia-mobilidade-acessivel.zip";package.parent.mkdir(exist_ok=True)
     with zipfile.ZipFile(package,"w",zipfile.ZIP_DEFLATED) as z:
         for p in selected_files():z.write(p,p.relative_to(ROOT).as_posix())
