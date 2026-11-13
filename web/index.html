@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#164b3b">
+<meta name="description" content="Consulte fontes oficiais sobre Atende+, Bilhete Especial PcD e acessibilidade no Metrô de São Paulo.">
+<title>Guia de Mobilidade Acessível</title>
+<link rel="stylesheet" href="/assets/style.css"><script src="/assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#pergunta">Ir para a pergunta</a>
+<header class="topbar"><a class="brand" href="/">Guia de Mobilidade Acessível</a><span class="location">São Paulo · consulta documental</span></header>
+<main>
+<div class="notice"><p><strong>Informação documental.</strong> As fontes não mostram o estado dos equipamentos em tempo real nem permitem analisar cadastros ou garantir benefícios.</p></div>
+<div class="workspace"><section class="consultation" aria-labelledby="main-title">
+<h1 id="main-title">Encontre informação.<br>Confira a fonte.</h1>
+<p class="intro">Pergunte sobre o Atende+, o Bilhete Único Especial PcD e a acessibilidade documentada pelo Metrô de São Paulo. As respostas apresentam os trechos consultados e o caminho para o órgão responsável.</p>
+<form id="question-form">
+<label for="pergunta">O que você precisa saber?</label>
+<textarea id="pergunta" name="question" maxlength="2000" minlength="3" rows="4" required placeholder="Por exemplo: o Atende+ funciona em feriados?" aria-describedby="question-help"></textarea>
+<div class="form-meta"><p id="question-help">Não envie CPF, laudos, nome ou outros dados pessoais.</p><span id="character-count" aria-hidden="true">0 / 2.000</span></div>
+<div class="submit-row"><div id="configuration-control" hidden><label for="configuration">Configuração de demonstração</label><select id="configuration"><option value="A">A · Sem contexto</option><option value="B">B · RAG simples</option><option value="C">C · Agente local</option></select></div><button class="submit" id="submit" type="submit"><span id="submit-label">Consultar informação</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div>
+</form>
+<div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+<section id="answer-region" class="answer-region" aria-labelledby="answer-title" hidden tabindex="-1"><div class="answer-heading"><h2 id="answer-title">Resposta</h2><span id="answer-status"></span></div><p id="answer-text"></p><div id="missing"></div><div id="sources" class="sources"></div><p class="answer-note">O modelo seleciona evidências documentais. Uma citação existente pode ser insuficiente: confira condições, abrangência e data na fonte oficial.</p></section>
+<section class="examples" aria-labelledby="examples-title"><h2 id="examples-title">Comece por uma pergunta</h2><p>Escolha um exemplo para preencher o campo ou escreva sua própria pergunta. Depois, selecione “Consultar informação”.</p><div id="example-groups"><p>Carregando perguntas…</p></div><p id="catalog-error" class="feedback" role="status" hidden></p></section>
+</section><aside class="guide" aria-labelledby="guide-title"><h2 id="guide-title">Informação com origem.</h2><p>Abra cada evidência para consultar o trecho, o órgão e o endereço oficial.</p><div class="guide-rule"><h3>Documentos, com data</h3><p id="source-date">A data de coleta aparece junto de cada fonte. Ela não significa que o órgão atualizou o documento naquele dia.</p></div><div class="guide-rule"><h3>Quando não há resposta</h3><p>O guia identifica o que falta na base. Isso não significa que o serviço ou direito não exista.</p></div><div class="guide-rule"><h3>Referência normativa</h3><p>As regras de transporte e mobilidade são referências documentais. Casos individuais cabem ao órgão ou profissional competente.</p></div><details class="guide-rule"><summary>Fontes da base</summary><ul id="source-list"><li>Carregando fontes…</li></ul></details></aside></div>
+</main><footer><span>Guia de Mobilidade Acessível</span><span>São Paulo · SPTrans · Metrô · legislação federal</span></footer>
+</body></html>

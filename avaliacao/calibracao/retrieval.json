@@ -1,0 +1,527 @@
+{
+  "rows": [
+    {
+      "id": "V01",
+      "groups": [
+        [
+          "F03-faq-16762"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16765",
+          "score": 0.8831718564033508
+        },
+        {
+          "chunk_id": "F03-faq-16761",
+          "score": 0.8773477077484131
+        },
+        {
+          "chunk_id": "F03-faq-16762",
+          "score": 0.8737159371376038
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "groups": [
+        [
+          "F03-faq-16763"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16765",
+          "score": 0.898716390132904
+        },
+        {
+          "chunk_id": "F03-faq-16770",
+          "score": 0.8932412266731262
+        },
+        {
+          "chunk_id": "F03-faq-16764",
+          "score": 0.8886392116546631
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "groups": [
+        [
+          "F03-faq-16764"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16764",
+          "score": 0.926032304763794
+        },
+        {
+          "chunk_id": "F03-faq-16771",
+          "score": 0.8787470459938049
+        },
+        {
+          "chunk_id": "F03-faq-16765",
+          "score": 0.8786749839782715
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "groups": [
+        [
+          "F03-faq-16765"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16765",
+          "score": 0.919035792350769
+        },
+        {
+          "chunk_id": "F03-faq-16770",
+          "score": 0.8782234191894531
+        },
+        {
+          "chunk_id": "F03-faq-16767",
+          "score": 0.875617504119873
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "groups": [
+        [
+          "F03-faq-16766"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16757",
+          "score": 0.8836197853088379
+        },
+        {
+          "chunk_id": "F03-faq-16771",
+          "score": 0.8810995221138
+        },
+        {
+          "chunk_id": "F03-faq-16766",
+          "score": 0.8807457685470581
+        }
+      ]
+    },
+    {
+      "id": "V06",
+      "groups": [
+        [
+          "F03-faq-16767"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16767",
+          "score": 0.8872271180152893
+        },
+        {
+          "chunk_id": "F03-faq-16775",
+          "score": 0.8794757127761841
+        },
+        {
+          "chunk_id": "F03-faq-16771",
+          "score": 0.8745846748352051
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "groups": [
+        [
+          "F03-faq-16776"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16776",
+          "score": 0.8878949880599976
+        },
+        {
+          "chunk_id": "F02-gestao",
+          "score": 0.8765009641647339
+        },
+        {
+          "chunk_id": "F03-faq-16769",
+          "score": 0.8764833807945251
+        }
+      ]
+    },
+    {
+      "id": "V08",
+      "groups": [
+        [
+          "F03-faq-16777"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16777",
+          "score": 0.9149997234344482
+        },
+        {
+          "chunk_id": "F03-faq-16775",
+          "score": 0.8761752843856812
+        },
+        {
+          "chunk_id": "F03-faq-16759",
+          "score": 0.8704581260681152
+        }
+      ]
+    },
+    {
+      "id": "V09",
+      "groups": [
+        [
+          "F03-faq-16779"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16771",
+          "score": 0.8865920305252075
+        },
+        {
+          "chunk_id": "F03-faq-16779",
+          "score": 0.8847333788871765
+        },
+        {
+          "chunk_id": "F02-programacao",
+          "score": 0.8768822550773621
+        }
+      ]
+    },
+    {
+      "id": "V10",
+      "groups": [
+        [
+          "F04-faq-24145"
+        ]
+      ],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-24145",
+          "score": 0.9329060912132263
+        },
+        {
+          "chunk_id": "F04-faq-24138",
+          "score": 0.893712043762207
+        },
+        {
+          "chunk_id": "F04-faq-24137",
+          "score": 0.8893593549728394
+        }
+      ]
+    },
+    {
+      "id": "V11",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-24144",
+          "score": 0.8478693962097168
+        },
+        {
+          "chunk_id": "F04-faq-24142",
+          "score": 0.8450755476951599
+        },
+        {
+          "chunk_id": "F04-faq-61423",
+          "score": 0.8442268371582031
+        }
+      ]
+    },
+    {
+      "id": "V12",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F07-art-51",
+          "score": 0.8305251598358154
+        },
+        {
+          "chunk_id": "F07-art-52",
+          "score": 0.8275502324104309
+        },
+        {
+          "chunk_id": "F06-sanitario-carrao-assai-atacadista-3",
+          "score": 0.8205478191375732
+        }
+      ]
+    },
+    {
+      "id": "V13",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-24147",
+          "score": 0.8651958107948303
+        },
+        {
+          "chunk_id": "F04-faq-24148",
+          "score": 0.8625756502151489
+        },
+        {
+          "chunk_id": "F06-sanitario-penha-lojas-besni-3",
+          "score": 0.8612614870071411
+        }
+      ]
+    },
+    {
+      "id": "V14",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-24144",
+          "score": 0.8447313904762268
+        },
+        {
+          "chunk_id": "F04-faq-69247",
+          "score": 0.8412702083587646
+        },
+        {
+          "chunk_id": "F04-faq-24147",
+          "score": 0.8406733274459839
+        }
+      ]
+    },
+    {
+      "id": "V15",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F05-preferencial",
+          "score": 0.8446758985519409
+        },
+        {
+          "chunk_id": "F05-cao-guia",
+          "score": 0.8438600301742554
+        },
+        {
+          "chunk_id": "F05-equipe",
+          "score": 0.8411284685134888
+        }
+      ]
+    },
+    {
+      "id": "V16",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-69247",
+          "score": 0.8409984111785889
+        },
+        {
+          "chunk_id": "F04-faq-24148",
+          "score": 0.8398092985153198
+        },
+        {
+          "chunk_id": "F07-art-52",
+          "score": 0.8384732007980347
+        }
+      ]
+    },
+    {
+      "id": "V17",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-24138",
+          "score": 0.8722172975540161
+        },
+        {
+          "chunk_id": "F04-faq-24137",
+          "score": 0.8568148612976074
+        },
+        {
+          "chunk_id": "F04-faq-24145",
+          "score": 0.8537486791610718
+        }
+      ]
+    },
+    {
+      "id": "V18",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F03-faq-16757",
+          "score": 0.8210098743438721
+        },
+        {
+          "chunk_id": "F06-sanitario-clinicas-2",
+          "score": 0.8153760433197021
+        },
+        {
+          "chunk_id": "F06-sanitario-fazenda-da-juta-15",
+          "score": 0.81432044506073
+        }
+      ]
+    },
+    {
+      "id": "V19",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F07-art-47",
+          "score": 0.8254342675209045
+        },
+        {
+          "chunk_id": "F03-faq-16775",
+          "score": 0.8103175759315491
+        },
+        {
+          "chunk_id": "F04-faq-24136",
+          "score": 0.8095005750656128
+        }
+      ]
+    },
+    {
+      "id": "V20",
+      "groups": [],
+      "ranking": [
+        {
+          "chunk_id": "F04-faq-61418",
+          "score": 0.8408468961715698
+        },
+        {
+          "chunk_id": "F04-faq-69246",
+          "score": 0.8289450407028198
+        },
+        {
+          "chunk_id": "F03-faq-16757",
+          "score": 0.8276405334472656
+        }
+      ]
+    }
+  ],
+  "table": [
+    {
+      "threshold": 0.0,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.7,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.72,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.74,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.75,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.76,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.78,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.8,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.82,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 1.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.65
+    },
+    {
+      "threshold": 0.85,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.9,
+      "negative_context_rate": 0.2,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.85
+    },
+    {
+      "threshold": 0.9,
+      "recall1": 0.6,
+      "recall3": 0.9,
+      "coverage_after_filter": 0.4,
+      "negative_context_rate": 0.0,
+      "positive_denominator": 10,
+      "negative_denominator": 10,
+      "objective": 0.4
+    }
+  ],
+  "selected": {
+    "threshold": 0.85,
+    "recall1": 0.6,
+    "recall3": 0.9,
+    "coverage_after_filter": 0.9,
+    "negative_context_rate": 0.2,
+    "positive_denominator": 10,
+    "negative_denominator": 10,
+    "objective": 0.85
+  },
+  "rule": "max cobertura média dos grupos - 0.25 * fração negativos com contexto; desempate maior corte; somente validação"
+}

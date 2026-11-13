@@ -1,0 +1,5 @@
+{
+  "threshold": 0.85,
+  "default_configuration": "B",
+  "status": "development"
+}

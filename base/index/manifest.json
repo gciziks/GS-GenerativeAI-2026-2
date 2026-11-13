@@ -1,0 +1,19 @@
+{
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "requested_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "resolved_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "corpus_sha256": "e60ca9f7f7418da826b7df332738dc8dc7a28e72c0a4cd727fcd60921efacc74",
+  "matrix_sha256": "6aeca1e1e21ed52610a631ddce53acd3181eaa08b3224db2cbe121769dc8c64d",
+  "chunks_sha256": "84b7bc8280392b903a1304a99e853552cf544cf985fbcf36e54b72891a13eed3",
+  "chunks": 114,
+  "dimensions": 384,
+  "normalized": true,
+  "device": "cpu",
+  "prefixes": [
+    "query: ",
+    "passage: "
+  ],
+  "max_seq_length": 512,
+  "max_observed_tokens": 141,
+  "python": "3.12.13"
+}

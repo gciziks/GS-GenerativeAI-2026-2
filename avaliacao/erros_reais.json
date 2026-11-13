@@ -1,0 +1,1356 @@
+[
+  {
+    "case": {
+      "id": "T03",
+      "question": "A partir de quando é contado o prazo publicado de entrega do Bilhete Especial PcD?",
+      "category": "simples",
+      "semantic_group": "F04-faq-24141",
+      "semantic_dependencies": [
+        "F04-faq-24141"
+      ],
+      "expected_status": "respondido",
+      "required_answer_units": [
+        {
+          "text": "Até 20 dias",
+          "any_of": [
+            [
+              "20 dias"
+            ]
+          ]
+        }
+      ],
+      "required_conditions": [
+        {
+          "text": "Contados da aprovação da solicitação",
+          "any_of": [
+            [
+              "aprovação"
+            ]
+          ]
+        }
+      ],
+      "forbidden_conclusions": [
+        {
+          "text": "Não contradizer a unidade documental: Até 20 dias",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        },
+        {
+          "text": "Não contradizer a unidade documental: Contados da aprovação da solicitação",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        }
+      ],
+      "gold_evidence_groups": [
+        [
+          "F04-faq-24141"
+        ]
+      ],
+      "missing_answer_units": [],
+      "coverage_reason": "Unidades conferidas nas fontes oficiais indicadas; sínteses do corpus são identificadas como redação do projeto.",
+      "source_review": {
+        "method": "revisão documental assistida por IA, sem revisão humana declarada",
+        "status": "conferido contra snapshots oficiais e curadoria",
+        "reviewed_at": "2026-11-12",
+        "sources": [
+          {
+            "chunk_id": "F04-faq-24141",
+            "source_id": "F04",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "locator": "#pergunta_24141 — Qual o prazo para entrega do Bilhete Único?"
+          }
+        ]
+      }
+    },
+    "result": {
+      "configuration": "A",
+      "question": "A partir de quando é contado o prazo publicado de entrega do Bilhete Especial PcD?",
+      "raw": "{\n  \"status\": \"respondido\",\n  \"answer\": \"O prazo publicado de entrega do Bilhete Único Especial PcD começa a ser contado a partir da data de publicação do edital ou da notificação oficial no site do Sistema de Transporte Metropolitano de São Paulo (SMTSP) ou no portal do Atende+, conforme previsto na Lei Brasileira de Inclusão (LBI), artigo 46, que estabelece o direito de acesso ao transporte público por pessoas com deficiência. O prazo é calculado a partir da data de publicação do edital de oferta do bilhete, e não a partir de uma data específica de entrega física ou de solicitação individual.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"art_46_lbi\",\n      \"quote\": \"Art. 46. A pessoa com deficiência tem direito de acesso ao transporte público, mediante a utilização de meios de transporte acessíveis, com a possibilidade de obtenção de bilhetes especiais, conforme estabelecido no presente artigo e nos demais dispositivos da Lei Brasileira de Inclusão.\"\n    }\n  ],\n  \"missing_information\": [],\n  \"refusal_reason\": null\n}",
+      "raw_attempts": [
+        "{\n  \"status\": \"respondido\",\n  \"answer\": \"O prazo publicado de entrega do Bilhete Único Especial PcD começa a ser contado a partir da data de publicação do edital ou da notificação oficial no site do Sistema de Transporte Metropolitano de São Paulo (SMTSP) ou no portal do Atende+, conforme previsto na Lei Brasileira de Inclusão (LBI), artigo 46, que estabelece o direito de acesso ao transporte público por pessoas com deficiência. O prazo é calculado a partir da data de publicação do edital de oferta do bilhete, e não a partir de uma data específica de entrega física ou de solicitação individual.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"art_46_lbi\",\n      \"quote\": \"Art. 46. A pessoa com deficiência tem direito de acesso ao transporte público, mediante a utilização de meios de transporte acessíveis, com a possibilidade de obtenção de bilhetes especiais, conforme estabelecido no presente artigo e nos demais dispositivos da Lei Brasileira de Inclusão.\"\n    }\n  ],\n  \"missing_information\": [],\n  \"refusal_reason\": null\n}",
+        "{\n  \"status\": \"respondido\",\n  \"answer\": \"O prazo publicado de entrega do Bilhete Único Especial PcD começa a ser contado a partir da data de publicação do edital ou da notificação oficial no site do Sistema de Transporte Metropolitano de São Paulo (SMTSP) ou no portal do Atende+, conforme previsto na Lei Brasileira de Inclusão (LBI), artigo 46, que estabelece o direito de acesso ao transporte público por pessoas com deficiência. O prazo é calculado a partir da data de publicação do edital de oferta do bilhete, e não a partir de uma data específica de entrega física ou de solicitação individual.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"art_46_lbi\",\n      \"quote\": \"Art. 46. A pessoa com deficiência tem direito de acesso ao transporte público, mediante a utilização de meios de transporte acessíveis, com a possibilidade de obtenção de bilhetes especiais, conforme estabelecido no presente artigo e nos demais dispositivos da Lei Brasileira de Inclusão.\"\n    }\n  ],\n  \"missing_information\": [],\n  \"refusal_reason\": null\n}"
+      ],
+      "delivered": {
+        "status": "indisponivel",
+        "answer": "Não foi possível concluir a consulta. Tente novamente.",
+        "evidence": [],
+        "missing_information": [],
+        "refusal_reason": "Falha de inferência ou validação"
+      },
+      "seen": [],
+      "rankings": [],
+      "actions": [],
+      "errors": [
+        "Citação inexistente ou não consultada",
+        "Citação inexistente ou não consultada",
+        "ValueError: Citação inexistente ou não consultada"
+      ],
+      "elapsed_seconds": 6.169885600000271,
+      "calls": 2,
+      "tokens": 2121,
+      "case_id": "T03",
+      "category": "simples",
+      "semantic_group": "F04-faq-24141",
+      "score": {
+        "case_id": "T03",
+        "configuration": "A",
+        "category": "simples",
+        "expected_status": "respondido",
+        "status": "indisponivel",
+        "status_correct": false,
+        "full_correct": false,
+        "partial_correct": false,
+        "answerable": true,
+        "unit_hits": [
+          false
+        ],
+        "condition_hits": [
+          false
+        ],
+        "missing_information_hits": [],
+        "unit_coverage": 0.0,
+        "condition_coverage": 0.0,
+        "json_raw": true,
+        "json_delivered": true,
+        "citation_exists": null,
+        "citation_seen": null,
+        "citation_valid": null,
+        "citation_sufficient": null,
+        "evidence_group_coverage": null,
+        "correct_refusal": false,
+        "improper_refusal": false,
+        "technical_failure": true,
+        "hallucination_raw": null,
+        "hallucination_delivered": null,
+        "hallucination_raw_evaluable": false,
+        "hallucination_delivered_evaluable": false,
+        "forbidden_raw": [],
+        "forbidden_delivered": [],
+        "recall1": null,
+        "recall3": null,
+        "after_filter": null,
+        "accumulated": null,
+        "elapsed_seconds": 6.169885600000271,
+        "calls": 2,
+        "tokens": 2121,
+        "judgment_method": "auditoria automática de unidades/condições documentais e extratos; prosa extra não avaliada",
+        "judgment_reasons": [
+          "status 'indisponivel'; esperado respondido",
+          "unidades ausentes: 1",
+          "condições ausentes: 1"
+        ],
+        "raw_support_limitation": "Sem auditoria semântica exaustiva de afirmações livres; null não significa ausência de alucinação."
+      }
+    },
+    "probable_cause": "Sem contexto, o modelo inventou uma regra de edital e uma transcrição atribuída ao art.46, além de preencher evidence com ID não recebido. O único reparo não resolveu o contrato; a entrega tornou-se indisponivel. Causa provável: combinação de conhecimento gerado sem suporte e baixa adesão à exigência evidence=[] do baseline, não indisponibilidade do servidor.",
+    "proposed_correction": "Em versão futura, impor evidence=[] estruturalmente no schema de A e no reparo, preservando liberdade para responder ou reconhecer incerteza. Auditar a prosa separadamente. Medir em novo conjunto independente; não recalcular o placar desta rodada. Preservar esta rodada e exigir novo teste independente antes de alegar ganho."
+  },
+  {
+    "case": {
+      "id": "T01",
+      "question": "Para cadastrar o Bilhete Especial PcD no posto, o interessado pode ser substituído por um representante?",
+      "category": "simples",
+      "semantic_group": "F04-faq-24139",
+      "semantic_dependencies": [
+        "F04-faq-24139"
+      ],
+      "expected_status": "respondido",
+      "required_answer_units": [
+        {
+          "text": "Comparecimento pessoal do interessado",
+          "any_of": [
+            [
+              "pessoal",
+              "interessado",
+              "posto"
+            ]
+          ]
+        }
+      ],
+      "required_conditions": [],
+      "forbidden_conclusions": [
+        {
+          "text": "Não contradizer a unidade documental: Comparecimento pessoal do interessado",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        }
+      ],
+      "gold_evidence_groups": [
+        [
+          "F04-faq-24139"
+        ]
+      ],
+      "missing_answer_units": [],
+      "coverage_reason": "Unidades conferidas nas fontes oficiais indicadas; sínteses do corpus são identificadas como redação do projeto.",
+      "source_review": {
+        "method": "revisão documental assistida por IA, sem revisão humana declarada",
+        "status": "conferido contra snapshots oficiais e curadoria",
+        "reviewed_at": "2026-11-12",
+        "sources": [
+          {
+            "chunk_id": "F04-faq-24139",
+            "source_id": "F04",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "locator": "#pergunta_24139 — É possível enviar um representante ao Posto de Atendimento - Bilhete Único Especial para fazer o cadastramento em nome da pessoa com deficiência?"
+          }
+        ]
+      }
+    },
+    "result": {
+      "configuration": "B",
+      "question": "Para cadastrar o Bilhete Especial PcD no posto, o interessado pode ser substituído por um representante?",
+      "raw": "{\"status\":\"parcial\",\"answer\":\"Os trechos consultados não mencionam se é possível substituir o interessado por um representante no cadastro do Bilhete Único Especial PcD em posto. A informação sobre representação não está presente nas fontes disponibilizadas.\",\"evidence\":[{\"chunk_id\":\"F04-faq-24145\",\"quote\":\"O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente.\"},{\"chunk_id\":\"F04-faq-24147\",\"quote\":\"Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.\"},{\"chunk_id\":\"F04-faq-24155\",\"quote\":\"A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.\"}],\"missing_information\":[\"possibilidade de representação legal ou física no cadastro do Bilhete Único Especial PcD em posto\"],\"refusal_reason\":\"A base documental consultada não contém informações sobre a substituição do interessado por um representante no cadastro do Bilhete Único Especial PcD.\"}",
+      "raw_attempts": [
+        "{\"status\":\"parcial\",\"answer\":\"Os trechos consultados não mencionam se é possível substituir o interessado por um representante no cadastro do Bilhete Único Especial PcD em posto. A informação sobre representação não está presente nas fontes disponibilizadas.\",\"evidence\":[{\"chunk_id\":\"F04-faq-24145\",\"quote\":\"O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente.\"},{\"chunk_id\":\"F04-faq-24147\",\"quote\":\"Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.\"},{\"chunk_id\":\"F04-faq-24155\",\"quote\":\"A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.\"}],\"missing_information\":[\"possibilidade de representação legal ou física no cadastro do Bilhete Único Especial PcD em posto\"],\"refusal_reason\":\"A base documental consultada não contém informações sobre a substituição do interessado por um representante no cadastro do Bilhete Único Especial PcD.\"}"
+      ],
+      "delivered": {
+        "status": "parcial",
+        "answer": "O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente.\n\nSe o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.\n\nA renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.",
+        "evidence": [
+          {
+            "chunk_id": "F04-faq-24145",
+            "quote": "O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente."
+          },
+          {
+            "chunk_id": "F04-faq-24147",
+            "quote": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados."
+          },
+          {
+            "chunk_id": "F04-faq-24155",
+            "quote": "A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação."
+          }
+        ],
+        "missing_information": [
+          "possibilidade de representação legal ou física no cadastro do Bilhete Único Especial PcD em posto"
+        ],
+        "refusal_reason": "A base documental consultada não contém informações sobre a substituição do interessado por um representante no cadastro do Bilhete Único Especial PcD."
+      },
+      "seen": [
+        {
+          "source_id": "F04",
+          "key": "faq-24145",
+          "title": "É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+          "text": "O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente. A FAQ cita o Decreto Municipal 58.228/2018.",
+          "locator": "#pergunta_24145 — É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24145",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24145 — É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+          "sha256": "e41f1eba59fa1bf217be48297fae1247b8f2ee9db2ade819007914086b5b906f",
+          "word_count": 30,
+          "token_count": 51,
+          "score": 0.8981931805610657
+        },
+        {
+          "source_id": "F04",
+          "key": "faq-24147",
+          "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+          "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24147",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "sha256": "adc470d196c7584b85436043d32031c23400b6ae586874f47099befc375377a9",
+          "word_count": 49,
+          "token_count": 83,
+          "score": 0.8968733549118042
+        },
+        {
+          "source_id": "F04",
+          "key": "faq-24155",
+          "title": "Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "text": "A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.",
+          "locator": "#pergunta_24155 — Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24155",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24155 — Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "sha256": "6d2e2e5936dff673714aff7ca32a3a0509da1a795647e83a7e5a31640fa80fe9",
+          "word_count": 41,
+          "token_count": 65,
+          "score": 0.8951728343963623
+        }
+      ],
+      "rankings": [
+        [
+          {
+            "source_id": "F04",
+            "key": "faq-24145",
+            "title": "É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+            "text": "O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente. A FAQ cita o Decreto Municipal 58.228/2018.",
+            "locator": "#pergunta_24145 — É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24145",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24145 — É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+            "sha256": "e41f1eba59fa1bf217be48297fae1247b8f2ee9db2ade819007914086b5b906f",
+            "word_count": 30,
+            "token_count": 51,
+            "score": 0.8981931805610657
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24147",
+            "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+            "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24147",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "sha256": "adc470d196c7584b85436043d32031c23400b6ae586874f47099befc375377a9",
+            "word_count": 49,
+            "token_count": 83,
+            "score": 0.8968733549118042
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24155",
+            "title": "Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "text": "A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.",
+            "locator": "#pergunta_24155 — Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24155",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24155 — Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "sha256": "6d2e2e5936dff673714aff7ca32a3a0509da1a795647e83a7e5a31640fa80fe9",
+            "word_count": 41,
+            "token_count": 65,
+            "score": 0.8951728343963623
+          }
+        ]
+      ],
+      "actions": [],
+      "errors": [],
+      "elapsed_seconds": 5.451839800000016,
+      "calls": 1,
+      "tokens": 2680,
+      "case_id": "T01",
+      "category": "simples",
+      "semantic_group": "F04-faq-24139",
+      "score": {
+        "case_id": "T01",
+        "configuration": "B",
+        "category": "simples",
+        "expected_status": "respondido",
+        "status": "parcial",
+        "status_correct": false,
+        "full_correct": false,
+        "partial_correct": false,
+        "answerable": true,
+        "unit_hits": [
+          false
+        ],
+        "condition_hits": [],
+        "missing_information_hits": [],
+        "unit_coverage": 0.0,
+        "condition_coverage": null,
+        "json_raw": true,
+        "json_delivered": true,
+        "citation_exists": true,
+        "citation_seen": true,
+        "citation_valid": true,
+        "citation_sufficient": false,
+        "evidence_group_coverage": 0.0,
+        "correct_refusal": false,
+        "improper_refusal": false,
+        "technical_failure": false,
+        "hallucination_raw": null,
+        "hallucination_delivered": null,
+        "hallucination_raw_evaluable": false,
+        "hallucination_delivered_evaluable": false,
+        "forbidden_raw": [],
+        "forbidden_delivered": [],
+        "recall1": 0.0,
+        "recall3": 0.0,
+        "after_filter": 0.0,
+        "accumulated": 0.0,
+        "elapsed_seconds": 5.451839800000016,
+        "calls": 1,
+        "tokens": 2680,
+        "judgment_method": "auditoria automática de unidades/condições documentais e extratos; prosa extra não avaliada",
+        "judgment_reasons": [
+          "status 'parcial'; esperado respondido",
+          "unidades ausentes: 1",
+          "evidências não cobrem todos os grupos documentais necessários"
+        ],
+        "raw_support_limitation": "Sem auditoria semântica exaustiva de afirmações livres; null não significa ausência de alucinação."
+      }
+    },
+    "probable_cause": "A única busca top3 trouxe nome social, atraso de entrega e renovação, deixando de fora a FAQ sobre comparecimento pessoal. O modelo usou extratos desses três assuntos como uma resposta parcial, embora nenhum respondesse à possibilidade de representação no cadastramento. Causa provável: similaridade semântica dominada por termos genéricos de Bilhete/posto/cadastro e ausência de verificação de pertinência antes da entrega.",
+    "proposed_correction": "Avaliar no desenvolvimento busca que preserve a intenção representação versus comparecimento pessoal e, se justificado, combinação lexical/densa compartilhada por B/C. Fazer guarda de suficiência por pergunta: não exibir trechos apenas relacionados como parte respondida. Validar em nova rodada independente. Preservar esta rodada e exigir novo teste independente antes de alegar ganho."
+  },
+  {
+    "case": {
+      "id": "T33",
+      "question": "O prazo de análise do Bilhete PcD e o de entrega começam no mesmo momento? Quais são?",
+      "category": "composta",
+      "semantic_group": "F04-faq-69246+F04-faq-24141",
+      "semantic_dependencies": [
+        "F04-faq-69246",
+        "F04-faq-24141"
+      ],
+      "expected_status": "respondido",
+      "required_answer_units": [
+        {
+          "text": "Análise até20dias após documentos obrigatórios",
+          "any_of": [
+            [
+              "20 dias",
+              "documentação",
+              "obrigatória"
+            ]
+          ]
+        },
+        {
+          "text": "Entrega até20dias após aprovação",
+          "any_of": [
+            [
+              "20 dias",
+              "aprovação"
+            ]
+          ]
+        }
+      ],
+      "required_conditions": [],
+      "forbidden_conclusions": [
+        {
+          "text": "Não contradizer a unidade documental: Análise até20dias após documentos obrigatórios",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        },
+        {
+          "text": "Não contradizer a unidade documental: Entrega até20dias após aprovação",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        }
+      ],
+      "gold_evidence_groups": [
+        [
+          "F04-faq-69246"
+        ],
+        [
+          "F04-faq-24141"
+        ]
+      ],
+      "missing_answer_units": [],
+      "coverage_reason": "Unidades conferidas nas fontes oficiais indicadas; sínteses do corpus são identificadas como redação do projeto.",
+      "source_review": {
+        "method": "revisão documental assistida por IA, sem revisão humana declarada",
+        "status": "conferido contra snapshots oficiais e curadoria",
+        "reviewed_at": "2026-11-12",
+        "sources": [
+          {
+            "chunk_id": "F04-faq-69246",
+            "source_id": "F04",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "locator": "#pergunta_69246 — Qual o prazo de análise da solicitação de Bilhete Único da Pessoa com Deficiência?"
+          },
+          {
+            "chunk_id": "F04-faq-24141",
+            "source_id": "F04",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "locator": "#pergunta_24141 — Qual o prazo para entrega do Bilhete Único?"
+          }
+        ]
+      }
+    },
+    "result": {
+      "configuration": "C",
+      "question": "O prazo de análise do Bilhete PcD e o de entrega começam no mesmo momento? Quais são?",
+      "raw": "{\"status\":\"parcial\",\"answer\":\"O prazo de entrega do Bilhete Único Especial PcD é de 20 dias a partir da solicitação. No entanto, o documento não especifica se o prazo de análise e o prazo de entrega começam no mesmo momento. A informação sobre o início simultâneo dos prazos não está presente nas fontes consultadas.\",\"evidence\":[{\"chunk_id\":\"F04-faq-24147\",\"quote\":\"Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto.\"}],\"missing_information\":[\"prazo de análise do Bilhete Único Especial PcD e se ele começa no mesmo momento que o prazo de entrega\"],\"refusal_reason\":\"A base documental consultada não informa o prazo de análise e não estabelece se ele começa no mesmo momento que o prazo de entrega.\"}",
+      "raw_attempts": [
+        "{\"status\":\"parcial\",\"answer\":\"O prazo de entrega do Bilhete Único Especial PcD é de 20 dias a partir da solicitação. No entanto, o documento não especifica se o prazo de análise e o prazo de entrega começam no mesmo momento. A informação sobre o início simultâneo dos prazos não está presente nas fontes consultadas.\",\"evidence\":[{\"chunk_id\":\"F04-faq-24147\",\"quote\":\"Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto.\"}],\"missing_information\":[\"prazo de análise do Bilhete Único Especial PcD e se ele começa no mesmo momento que o prazo de entrega\"],\"refusal_reason\":\"A base documental consultada não informa o prazo de análise e não estabelece se ele começa no mesmo momento que o prazo de entrega.\"}"
+      ],
+      "delivered": {
+        "status": "parcial",
+        "answer": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto.",
+        "evidence": [
+          {
+            "chunk_id": "F04-faq-24147",
+            "quote": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto."
+          }
+        ],
+        "missing_information": [
+          "prazo de análise do Bilhete Único Especial PcD e se ele começa no mesmo momento que o prazo de entrega"
+        ],
+        "refusal_reason": "A base documental consultada não informa o prazo de análise e não estabelece se ele começa no mesmo momento que o prazo de entrega."
+      },
+      "seen": [
+        {
+          "source_id": "F04",
+          "key": "faq-24147",
+          "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+          "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24147",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+          "sha256": "adc470d196c7584b85436043d32031c23400b6ae586874f47099befc375377a9",
+          "word_count": 49,
+          "token_count": 83
+        },
+        {
+          "source_id": "F04",
+          "key": "faq-24137",
+          "title": "Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "text": "Para solicitar o Bilhete Único Especial PcD, consulte documentos e exames exigidos e obtenha o formulário no Atendimento Digital SPTrans ou em posto. O médico deve preenchê-lo de modo legível, com identificação da patologia, limitações, assinatura, carimbo e data; o solicitante ou representante também assina. O formulário específico SPTrans vale 90 dias. Para deficiência permanente existe formulário oficial SMS próprio. A solicitação depende de análise e não garante aprovação.",
+          "locator": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24137",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "sha256": "6e4da43f1fd5ad9867f381c83254696908ef31c4756cb47180e8c64ab714e8f5",
+          "word_count": 69,
+          "token_count": 106,
+          "score": 0.8929672837257385
+        },
+        {
+          "source_id": "F04",
+          "key": "faq-24159",
+          "title": "Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+          "text": "Para bloquear Bilhete Especial PcD perdido, roubado, extraviado ou furtado em São Paulo, o titular deve procurar posto ou ligar 156, com atendimento 24 horas. Em outras cidades, a FAQ indica 0800 550 121 da CPTM, segunda a sexta das 5h às 22h e sábado das 6h às 18h. Após bloquear, a segunda via exige comparecer a posto com identificação, CPF se necessário e comprovante de residência de até seis meses.",
+          "locator": "#pergunta_24159 — Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24159",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24159 — Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+          "sha256": "f661e28f2ef93e000f41d680522d3c3f2bccb36677900aa6934f100e772871e3",
+          "word_count": 71,
+          "token_count": 107,
+          "score": 0.8972210884094238
+        },
+        {
+          "source_id": "F04",
+          "key": "faq-24138",
+          "title": "Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "text": "A solicitação do Bilhete Especial PcD exige documento pessoal com foto, CPF se não constar nele, comprovante de residência de até seis meses e formulário SPTrans ou de laudo permanente SMS preenchido pelo médico. Exames, laudos e outros documentos são exigidos quando previstos no Anexo único de patologias.",
+          "locator": "#pergunta_24138 — Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "representation": "curated_summary",
+          "chunk_id": "F04-faq-24138",
+          "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+          "publisher": "SPTrans",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Bilhete Único Especial PcD",
+          "section": "#pergunta_24138 — Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+          "sha256": "0bf2ba40b8eb9ff6cf17554345faf15ba8293932c393c3ea62ecb0e6ac19ea81",
+          "word_count": 48,
+          "token_count": 78,
+          "score": 0.8906345367431641
+        }
+      ],
+      "rankings": [
+        [
+          {
+            "source_id": "F04",
+            "key": "faq-24147",
+            "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+            "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24147",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "sha256": "adc470d196c7584b85436043d32031c23400b6ae586874f47099befc375377a9",
+            "word_count": 49,
+            "token_count": 83,
+            "score": 0.9054179787635803
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24137",
+            "title": "Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "text": "Para solicitar o Bilhete Único Especial PcD, consulte documentos e exames exigidos e obtenha o formulário no Atendimento Digital SPTrans ou em posto. O médico deve preenchê-lo de modo legível, com identificação da patologia, limitações, assinatura, carimbo e data; o solicitante ou representante também assina. O formulário específico SPTrans vale 90 dias. Para deficiência permanente existe formulário oficial SMS próprio. A solicitação depende de análise e não garante aprovação.",
+            "locator": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24137",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "sha256": "6e4da43f1fd5ad9867f381c83254696908ef31c4756cb47180e8c64ab714e8f5",
+            "word_count": 69,
+            "token_count": 106,
+            "score": 0.9013108015060425
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24159",
+            "title": "Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+            "text": "Para bloquear Bilhete Especial PcD perdido, roubado, extraviado ou furtado em São Paulo, o titular deve procurar posto ou ligar 156, com atendimento 24 horas. Em outras cidades, a FAQ indica 0800 550 121 da CPTM, segunda a sexta das 5h às 22h e sábado das 6h às 18h. Após bloquear, a segunda via exige comparecer a posto com identificação, CPF se necessário e comprovante de residência de até seis meses.",
+            "locator": "#pergunta_24159 — Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24159",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24159 — Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+            "sha256": "f661e28f2ef93e000f41d680522d3c3f2bccb36677900aa6934f100e772871e3",
+            "word_count": 71,
+            "token_count": 107,
+            "score": 0.8972210884094238
+          }
+        ],
+        [
+          {
+            "source_id": "F04",
+            "key": "faq-24147",
+            "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+            "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24147",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+            "sha256": "adc470d196c7584b85436043d32031c23400b6ae586874f47099befc375377a9",
+            "word_count": 49,
+            "token_count": 83,
+            "score": 0.8982692956924438
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24137",
+            "title": "Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "text": "Para solicitar o Bilhete Único Especial PcD, consulte documentos e exames exigidos e obtenha o formulário no Atendimento Digital SPTrans ou em posto. O médico deve preenchê-lo de modo legível, com identificação da patologia, limitações, assinatura, carimbo e data; o solicitante ou representante também assina. O formulário específico SPTrans vale 90 dias. Para deficiência permanente existe formulário oficial SMS próprio. A solicitação depende de análise e não garante aprovação.",
+            "locator": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24137",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "sha256": "6e4da43f1fd5ad9867f381c83254696908ef31c4756cb47180e8c64ab714e8f5",
+            "word_count": 69,
+            "token_count": 106,
+            "score": 0.8929672837257385
+          },
+          {
+            "source_id": "F04",
+            "key": "faq-24138",
+            "title": "Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "text": "A solicitação do Bilhete Especial PcD exige documento pessoal com foto, CPF se não constar nele, comprovante de residência de até seis meses e formulário SPTrans ou de laudo permanente SMS preenchido pelo médico. Exames, laudos e outros documentos são exigidos quando previstos no Anexo único de patologias.",
+            "locator": "#pergunta_24138 — Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "representation": "curated_summary",
+            "chunk_id": "F04-faq-24138",
+            "source_version": "9e4bdb56d342c10c09c5e0aec60836d38724ef5deebbfbade9dad9818e819b63",
+            "publisher": "SPTrans",
+            "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+            "retrieved_at": "2026-11-12T05:40:17.161331+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Bilhete Único Especial PcD",
+            "section": "#pergunta_24138 — Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+            "sha256": "0bf2ba40b8eb9ff6cf17554345faf15ba8293932c393c3ea62ecb0e6ac19ea81",
+            "word_count": 48,
+            "token_count": 78,
+            "score": 0.8906345367431641
+          }
+        ]
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "raw": "{\"action\": \"search\", \"query\": \"prazo de análise e entrega do Bilhete Único Especial PcD em São Paulo\", \"chunk_id\": \"\"}",
+          "action": {
+            "action": "search",
+            "query": "prazo de análise e entrega do Bilhete Único Especial PcD em São Paulo",
+            "chunk_id": ""
+          }
+        },
+        {
+          "step": 1,
+          "raw": "{\"action\": \"read_chunk\", \"query\": \"\", \"chunk_id\": \"F04-faq-24147\"}",
+          "action": {
+            "action": "read_chunk",
+            "query": "",
+            "chunk_id": "F04-faq-24147"
+          }
+        },
+        {
+          "step": 2,
+          "raw": "{\"action\": \"search\", \"query\": \"prazo de análise e prazo de entrega do Bilhete Único Especial PcD em São Paulo\", \"chunk_id\": \"\"}",
+          "action": {
+            "action": "search",
+            "query": "prazo de análise e prazo de entrega do Bilhete Único Especial PcD em São Paulo",
+            "chunk_id": ""
+          }
+        },
+        {
+          "step": 3,
+          "raw": "{\"action\": \"read_chunk\", \"query\": \"\", \"chunk_id\": \"F04-faq-24147\"}",
+          "action": {
+            "action": "read_chunk",
+            "query": "",
+            "chunk_id": "F04-faq-24147"
+          }
+        }
+      ],
+      "errors": [],
+      "elapsed_seconds": 7.179153499999302,
+      "calls": 5,
+      "tokens": 16938,
+      "case_id": "T33",
+      "category": "composta",
+      "semantic_group": "F04-faq-69246+F04-faq-24141",
+      "score": {
+        "case_id": "T33",
+        "configuration": "C",
+        "category": "composta",
+        "expected_status": "respondido",
+        "status": "parcial",
+        "status_correct": false,
+        "full_correct": false,
+        "partial_correct": false,
+        "answerable": true,
+        "unit_hits": [
+          false,
+          false
+        ],
+        "condition_hits": [],
+        "missing_information_hits": [],
+        "unit_coverage": 0.0,
+        "condition_coverage": null,
+        "json_raw": true,
+        "json_delivered": true,
+        "citation_exists": true,
+        "citation_seen": true,
+        "citation_valid": true,
+        "citation_sufficient": false,
+        "evidence_group_coverage": 0.0,
+        "correct_refusal": false,
+        "improper_refusal": false,
+        "technical_failure": false,
+        "hallucination_raw": null,
+        "hallucination_delivered": null,
+        "hallucination_raw_evaluable": false,
+        "hallucination_delivered_evaluable": false,
+        "forbidden_raw": [],
+        "forbidden_delivered": [],
+        "recall1": 0.0,
+        "recall3": 0.0,
+        "after_filter": 0.0,
+        "accumulated": 0.0,
+        "elapsed_seconds": 7.179153499999302,
+        "calls": 5,
+        "tokens": 16938,
+        "judgment_method": "auditoria automática de unidades/condições documentais e extratos; prosa extra não avaliada",
+        "judgment_reasons": [
+          "status 'parcial'; esperado respondido",
+          "unidades ausentes: 1, 2",
+          "evidências não cobrem todos os grupos documentais necessários"
+        ],
+        "raw_support_limitation": "Sem auditoria semântica exaustiva de afirmações livres; null não significa ausência de alucinação."
+      }
+    },
+    "probable_cause": "O agente fez duas buscas quase equivalentes sobre análise e entrega e leu o mesmo trecho de atraso de entrega duas vezes, gastando as quatro ferramentas sem recuperar os dois marcos temporais. A prosa bruta transformou a menção a 20 dias do atraso em prazo contado da solicitação. A extração removeu essa inferência, mas restou só orientação sobre não recebimento, insuficiente para comparar os prazos.",
+    "proposed_correction": "Em versão futura, decompor perguntas compostas em fatos e marcos distintos, evitar leituras repetidas sem ganho e exigir fonte para a condição de início de cada prazo. Não inferir marco inicial a partir de regra de atraso. Avaliar o ajuste em novo teste independente, conservando os rastros atuais. Preservar esta rodada e exigir novo teste independente antes de alegar ganho."
+  },
+  {
+    "case": {
+      "id": "T38",
+      "question": "Onde fica o sanitário da Luz e há sabonete disponível agora?",
+      "category": "parcial",
+      "semantic_group": "F06-sanitario-luz-1",
+      "semantic_dependencies": [
+        "F06-sanitario-luz-1"
+      ],
+      "expected_status": "parcial",
+      "required_answer_units": [
+        {
+          "text": "Luz mezanino área paga",
+          "any_of": [
+            [
+              "Luz",
+              "mezanino",
+              "área paga"
+            ]
+          ]
+        }
+      ],
+      "required_conditions": [],
+      "forbidden_conclusions": [
+        {
+          "text": "Não contradizer a unidade documental: Luz mezanino área paga",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        },
+        {
+          "text": "Não inventar informação ausente, confirmar estado individual/atual nem afirmar inexistência no mundo por ausência no corpus.",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        }
+      ],
+      "gold_evidence_groups": [
+        [
+          "F06-sanitario-luz-1"
+        ]
+      ],
+      "missing_answer_units": [
+        "Estoque atual de sabonete não consta do corpus."
+      ],
+      "coverage_reason": "Unidades conferidas nas fontes oficiais indicadas; sínteses do corpus são identificadas como redação do projeto.",
+      "source_review": {
+        "method": "revisão documental assistida por IA, sem revisão humana declarada",
+        "status": "conferido contra snapshots oficiais e curadoria",
+        "reviewed_at": "2026-11-12",
+        "sources": [
+          {
+            "chunk_id": "F06-sanitario-luz-1",
+            "source_id": "F06",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "locator": "Tabela Linha 1-Azul; estação LUZ"
+          }
+        ]
+      },
+      "missing_information_requirements": [
+        {
+          "text": "Estoque atual de sabonete não disponível",
+          "any_of": [
+            [
+              "sabonete"
+            ]
+          ]
+        }
+      ]
+    },
+    "result": {
+      "configuration": "C",
+      "question": "Onde fica o sanitário da Luz e há sabonete disponível agora?",
+      "raw": "{\"status\":\"fora_escopo\",\"answer\":\"A pergunta refere-se a localização de um sanitário e disponibilidade de sabonete em um local específico (Luz), que não está dentro do escopo de informações sobre mobilidade acessível, transporte público ou instalações de serviços públicos em São Paulo.\",\"evidence\":[],\"missing_information\":[],\"refusal_reason\":\"A pergunta envolve detalhes sobre instalações e itens de higiene em um local específico, que não estão abrangidos pelas regras e documentos de mobilidade acessível e transporte público mencionados.\"}",
+      "raw_attempts": [
+        "{\"status\":\"fora_escopo\",\"answer\":\"A pergunta refere-se a localização de um sanitário e disponibilidade de sabonete em um local específico (Luz), que não está dentro do escopo de informações sobre mobilidade acessível, transporte público ou instalações de serviços públicos em São Paulo.\",\"evidence\":[],\"missing_information\":[],\"refusal_reason\":\"A pergunta envolve detalhes sobre instalações e itens de higiene em um local específico, que não estão abrangidos pelas regras e documentos de mobilidade acessível e transporte público mencionados.\"}"
+      ],
+      "delivered": {
+        "status": "fora_escopo",
+        "answer": "A solicitação está fora do escopo deste guia documental.",
+        "evidence": [],
+        "missing_information": [],
+        "refusal_reason": "A solicitação está fora do escopo deste guia documental."
+      },
+      "seen": [],
+      "rankings": [],
+      "actions": [
+        {
+          "step": 0,
+          "raw": "{\"action\": \"finish\", \"query\": \"\", \"chunk_id\": \"\"}",
+          "action": {
+            "action": "finish",
+            "query": "",
+            "chunk_id": ""
+          }
+        }
+      ],
+      "errors": [],
+      "elapsed_seconds": 1.9815114000011818,
+      "calls": 2,
+      "tokens": 1662,
+      "case_id": "T38",
+      "category": "parcial",
+      "semantic_group": "F06-sanitario-luz-1",
+      "score": {
+        "case_id": "T38",
+        "configuration": "C",
+        "category": "parcial",
+        "expected_status": "parcial",
+        "status": "fora_escopo",
+        "status_correct": false,
+        "full_correct": false,
+        "partial_correct": false,
+        "answerable": true,
+        "unit_hits": [
+          false
+        ],
+        "condition_hits": [],
+        "missing_information_hits": [
+          false
+        ],
+        "unit_coverage": 0.0,
+        "condition_coverage": null,
+        "json_raw": true,
+        "json_delivered": true,
+        "citation_exists": null,
+        "citation_seen": null,
+        "citation_valid": null,
+        "citation_sufficient": false,
+        "evidence_group_coverage": 0.0,
+        "correct_refusal": false,
+        "improper_refusal": true,
+        "technical_failure": false,
+        "hallucination_raw": null,
+        "hallucination_delivered": null,
+        "hallucination_raw_evaluable": false,
+        "hallucination_delivered_evaluable": false,
+        "forbidden_raw": [],
+        "forbidden_delivered": [],
+        "recall1": 0.0,
+        "recall3": 0.0,
+        "after_filter": 0.0,
+        "accumulated": 0.0,
+        "elapsed_seconds": 1.9815114000011818,
+        "calls": 2,
+        "tokens": 1662,
+        "judgment_method": "auditoria automática de unidades/condições documentais e extratos; prosa extra não avaliada",
+        "judgment_reasons": [
+          "status 'fora_escopo'; esperado parcial",
+          "unidades ausentes: 1",
+          "evidências não cobrem todos os grupos documentais necessários"
+        ],
+        "raw_support_limitation": "Sem auditoria semântica exaustiva de afirmações livres; null não significa ausência de alucinação."
+      }
+    },
+    "probable_cause": "O agente escolheu finish imediatamente, sem busca, tratando localização do sanitário e estoque atual de sabonete como um único tema fora do domínio. Causa provável: decisão prematura de escopo disparada pelo componente operacional ausente, sem reconhecer a unidade documental coberta.",
+    "proposed_correction": "Em versão futura, reconhecer a parte documental da pergunta composta e buscar sua evidência antes de recusar o restante. Entregar localização com status parcial e delimitar ausência de estoque atual, sem inventar telemetria. Conferir essa política em novo conjunto independente. Preservar esta rodada e exigir novo teste independente antes de alegar ganho."
+  },
+  {
+    "case": {
+      "id": "T35",
+      "question": "Compare o horário e a área dos sanitários de Vila Madalena e São Bento.",
+      "category": "composta",
+      "semantic_group": "F06-sanitario-vila-madalena-2+F06-sanitario-sao-bento-1",
+      "semantic_dependencies": [
+        "F06-sanitario-vila-madalena-2",
+        "F06-sanitario-sao-bento-1"
+      ],
+      "expected_status": "respondido",
+      "required_answer_units": [
+        {
+          "text": "Vila Madalena terminal ônibus6h0h",
+          "any_of": [
+            [
+              "Vila Madalena",
+              "terminal de ônibus",
+              "6h",
+              "0h"
+            ]
+          ]
+        },
+        {
+          "text": "São Bento área paga4h40à0h",
+          "any_of": [
+            [
+              "São Bento",
+              "área paga",
+              "4h40",
+              "0h"
+            ]
+          ]
+        }
+      ],
+      "required_conditions": [],
+      "forbidden_conclusions": [
+        {
+          "text": "Não contradizer a unidade documental: Vila Madalena terminal ônibus6h0h",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        },
+        {
+          "text": "Não contradizer a unidade documental: São Bento área paga4h40à0h",
+          "any_of": [],
+          "evaluation": "auditoria semântica separada; sem detector lexical presumido"
+        }
+      ],
+      "gold_evidence_groups": [
+        [
+          "F06-sanitario-vila-madalena-2"
+        ],
+        [
+          "F06-sanitario-sao-bento-1"
+        ]
+      ],
+      "missing_answer_units": [],
+      "coverage_reason": "Unidades conferidas nas fontes oficiais indicadas; sínteses do corpus são identificadas como redação do projeto.",
+      "source_review": {
+        "method": "revisão documental assistida por IA, sem revisão humana declarada",
+        "status": "conferido contra snapshots oficiais e curadoria",
+        "reviewed_at": "2026-11-12",
+        "sources": [
+          {
+            "chunk_id": "F06-sanitario-vila-madalena-2",
+            "source_id": "F06",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "locator": "Tabela Linha 2-Verde; estação VILA MADALENA"
+          },
+          {
+            "chunk_id": "F06-sanitario-sao-bento-1",
+            "source_id": "F06",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "locator": "Tabela Linha 1-Azul; estação SÃO BENTO"
+          }
+        ]
+      }
+    },
+    "result": {
+      "configuration": "C",
+      "question": "Compare o horário e a área dos sanitários de Vila Madalena e São Bento.",
+      "raw": "{\n  \"status\": \"parcial\",\n  \"answer\": \"Os sanitários nas estações de Vila Madalena e São Bento estão disponíveis com horários publicados, mas a comparação entre os dois locais apresenta lacunas importantes. Na estação São Bento (Linha 1-Azul), os sanitários estão localizados na área paga e funcionam todos os dias das 4h40 às 0h. Na estação Vila Madalena (Linha 2-Verde), os sanitários estão localizados no terminal de ônibus e funcionam todos os dias das 6h às 0h. A comparação entre os horários mostra que São Bento começa 1h40 antes do início de Vila Madalena, mas não há informação sobre a localização física ou a área de acesso dos sanitários em relação ao restante do complexo de transporte, o que limita a análise completa.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"F06-sanitario-sao-bento-1\",\n      \"quote\": \"Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.\"\n    },\n    {\n      \"chunk_id\": \"F06-sanitario-vila-madalena-2\",\n      \"quote\": \"Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.\"\n    }\n  ],\n  \"missing_information\": [\n    \"Localização física e acessibilidade dos sanitários em relação ao restante da estação (ex: proximidade de portas, rampas, áreas de circulação)\",\n    \"Disponibilidade real em tempo real (não confirmada nos dados)\",\n    \"Comparação de área de serviço ou capacidade dos sanitários\"\n  ],\n  \"refusal_reason\": \"A análise completa exige dados sobre localização física, acessibilidade e capacidade dos sanitários, que não estão disponíveis nas fontes consultadas. A comparação só pode ser feita com base nos horários e locais, o que limita a resposta a um nível parcial.\"\n}",
+      "raw_attempts": [
+        "{\n  \"status\": \"parcial\",\n  \"answer\": \"Os sanitários nas estações de Vila Madalena e São Bento estão disponíveis com horários publicados, mas a comparação entre os dois locais apresenta lacunas importantes. Na estação São Bento (Linha 1-Azul), os sanitários estão localizados na área paga e funcionam todos os dias das 4h40 às 0h. Na estação Vila Madalena (Linha 2-Verde), os sanitários estão localizados no terminal de ônibus e funcionam todos os dias das 6h às 0h. A comparação entre os horários mostra que São Bento começa 1h40 antes do início de Vila Madalena, mas não há informação sobre a localização física ou a área de acesso dos sanitários em relação ao restante do complexo de transporte, o que limita a análise completa.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"F06-sanitario-sao-bento-1\",\n      \"quote\": \"Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.\"\n    },\n    {\n      \"chunk_id\": \"F06-sanitario-vila-madalena-2\",\n      \"quote\": \"Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.\"\n    }\n  ],\n  \"missing_information\": [\n    \"Localização física e acessibilidade dos sanitários em relação ao restante da estação (ex: proximidade de portas, rampas, áreas de circulação)\",\n    \"Disponibilidade real em tempo real (não confirmada nos dados)\",\n    \"Comparação de área de serviço ou capacidade dos sanitários\"\n  ],\n  \"refusal_reason\": \"A análise completa exige dados sobre localização física, acessibilidade e capacidade dos sanitários, que não estão disponíveis nas fontes consultadas. A comparação só pode ser feita com base nos horários e locais, o que limita a resposta a um nível parcial.\"\n}"
+      ],
+      "delivered": {
+        "status": "parcial",
+        "answer": "Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.\n\nSanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+        "evidence": [
+          {
+            "chunk_id": "F06-sanitario-sao-bento-1",
+            "quote": "Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento."
+          },
+          {
+            "chunk_id": "F06-sanitario-vila-madalena-2",
+            "quote": "Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento."
+          }
+        ],
+        "missing_information": [
+          "Localização física e acessibilidade dos sanitários em relação ao restante da estação (ex: proximidade de portas, rampas, áreas de circulação)",
+          "Disponibilidade real em tempo real (não confirmada nos dados)",
+          "Comparação de área de serviço ou capacidade dos sanitários"
+        ],
+        "refusal_reason": "A análise completa exige dados sobre localização física, acessibilidade e capacidade dos sanitários, que não estão disponíveis nas fontes consultadas. A comparação só pode ser feita com base nos horários e locais, o que limita a resposta a um nível parcial."
+      },
+      "seen": [
+        {
+          "source_id": "F06",
+          "key": "sanitario-sao-bento-1",
+          "title": "Sanitários: SÃO BENTO — Linha 1-Azul",
+          "text": "Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+          "locator": "Tabela Linha 1-Azul; estação SÃO BENTO",
+          "representation": "curated_summary",
+          "table_records": [
+            [
+              "SÃO BENTO",
+              "Área Paga",
+              "Todos os dias, das 4h40 à 0h.",
+              "Metrô"
+            ]
+          ],
+          "line": "1-Azul",
+          "station": "SÃO BENTO",
+          "chunk_id": "F06-sanitario-sao-bento-1",
+          "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+          "publisher": "Metrô de São Paulo",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Metrô — acessibilidade",
+          "section": "Tabela Linha 1-Azul; estação SÃO BENTO",
+          "sha256": "a28c40d3eda0245f40246f3f589a1c746c3a6b2014f41e3d6fc8b724aa6102d0",
+          "word_count": 31,
+          "token_count": 64
+        },
+        {
+          "source_id": "F06",
+          "key": "sanitario-vila-madalena-2",
+          "title": "Sanitários: VILA MADALENA — Linha 2-Verde",
+          "text": "Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+          "locator": "Tabela Linha 2-Verde; estação VILA MADALENA",
+          "representation": "curated_summary",
+          "table_records": [
+            [
+              "VILA MADALENA",
+              "Terminal de ônibus",
+              "Todos os dias, das 6h à 0h",
+              "Metrô"
+            ]
+          ],
+          "line": "2-Verde",
+          "station": "VILA MADALENA",
+          "chunk_id": "F06-sanitario-vila-madalena-2",
+          "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+          "publisher": "Metrô de São Paulo",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Metrô — acessibilidade",
+          "section": "Tabela Linha 2-Verde; estação VILA MADALENA",
+          "sha256": "c9314f8ac2bd96a2c4508d4860d42f06b09d25b1fa5afa188f7b2b3b3706bbdc",
+          "word_count": 32,
+          "token_count": 64
+        },
+        {
+          "source_id": "F06",
+          "key": "sanitario-vila-tolstoi-15",
+          "title": "Sanitários: VILA TOLSTÓI — Linha 15-Prata",
+          "text": "Sanitários na estação VILA TOLSTÓI, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+          "locator": "Tabela Linha 15-Prata; estação VILA TOLSTÓI",
+          "representation": "curated_summary",
+          "table_records": [
+            [
+              "VILA TOLSTÓI",
+              "Área Paga",
+              "Todos os dias, das 4h40 à 0h",
+              "Metrô"
+            ]
+          ],
+          "line": "15-Prata",
+          "station": "VILA TOLSTÓI",
+          "chunk_id": "F06-sanitario-vila-tolstoi-15",
+          "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+          "publisher": "Metrô de São Paulo",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+          "jurisdiction": "São Paulo — serviço/operador da fonte",
+          "service": "Metrô — acessibilidade",
+          "section": "Tabela Linha 15-Prata; estação VILA TOLSTÓI",
+          "sha256": "72680d8a98429449dd5fbf3d2f91bbfb6db5f582e18d4e580deca7a96451b497",
+          "word_count": 31,
+          "token_count": 66,
+          "score": 0.8751004934310913
+        }
+      ],
+      "rankings": [
+        [
+          {
+            "source_id": "F06",
+            "key": "sanitario-sao-bento-1",
+            "title": "Sanitários: SÃO BENTO — Linha 1-Azul",
+            "text": "Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+            "locator": "Tabela Linha 1-Azul; estação SÃO BENTO",
+            "representation": "curated_summary",
+            "table_records": [
+              [
+                "SÃO BENTO",
+                "Área Paga",
+                "Todos os dias, das 4h40 à 0h.",
+                "Metrô"
+              ]
+            ],
+            "line": "1-Azul",
+            "station": "SÃO BENTO",
+            "chunk_id": "F06-sanitario-sao-bento-1",
+            "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+            "publisher": "Metrô de São Paulo",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Metrô — acessibilidade",
+            "section": "Tabela Linha 1-Azul; estação SÃO BENTO",
+            "sha256": "a28c40d3eda0245f40246f3f589a1c746c3a6b2014f41e3d6fc8b724aa6102d0",
+            "word_count": 31,
+            "token_count": 64,
+            "score": 0.8897829651832581
+          },
+          {
+            "source_id": "F06",
+            "key": "sanitario-vila-madalena-2",
+            "title": "Sanitários: VILA MADALENA — Linha 2-Verde",
+            "text": "Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+            "locator": "Tabela Linha 2-Verde; estação VILA MADALENA",
+            "representation": "curated_summary",
+            "table_records": [
+              [
+                "VILA MADALENA",
+                "Terminal de ônibus",
+                "Todos os dias, das 6h à 0h",
+                "Metrô"
+              ]
+            ],
+            "line": "2-Verde",
+            "station": "VILA MADALENA",
+            "chunk_id": "F06-sanitario-vila-madalena-2",
+            "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+            "publisher": "Metrô de São Paulo",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Metrô — acessibilidade",
+            "section": "Tabela Linha 2-Verde; estação VILA MADALENA",
+            "sha256": "c9314f8ac2bd96a2c4508d4860d42f06b09d25b1fa5afa188f7b2b3b3706bbdc",
+            "word_count": 32,
+            "token_count": 64,
+            "score": 0.8873739242553711
+          },
+          {
+            "source_id": "F06",
+            "key": "sanitario-vila-tolstoi-15",
+            "title": "Sanitários: VILA TOLSTÓI — Linha 15-Prata",
+            "text": "Sanitários na estação VILA TOLSTÓI, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+            "locator": "Tabela Linha 15-Prata; estação VILA TOLSTÓI",
+            "representation": "curated_summary",
+            "table_records": [
+              [
+                "VILA TOLSTÓI",
+                "Área Paga",
+                "Todos os dias, das 4h40 à 0h",
+                "Metrô"
+              ]
+            ],
+            "line": "15-Prata",
+            "station": "VILA TOLSTÓI",
+            "chunk_id": "F06-sanitario-vila-tolstoi-15",
+            "source_version": "191e1d228f109117122c67773957dddbda139ab79220c6e3031a66e25158abf0",
+            "publisher": "Metrô de São Paulo",
+            "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+            "retrieved_at": "2026-11-12T05:40:20.560732+00:00",
+            "jurisdiction": "São Paulo — serviço/operador da fonte",
+            "service": "Metrô — acessibilidade",
+            "section": "Tabela Linha 15-Prata; estação VILA TOLSTÓI",
+            "sha256": "72680d8a98429449dd5fbf3d2f91bbfb6db5f582e18d4e580deca7a96451b497",
+            "word_count": 31,
+            "token_count": 66,
+            "score": 0.8751004934310913
+          }
+        ]
+      ],
+      "actions": [
+        {
+          "step": 0,
+          "raw": "{\"action\": \"search\", \"query\": \"horário e área dos sanitários em Vila Madalena e São Bento São Paulo\", \"chunk_id\": \"\"}",
+          "action": {
+            "action": "search",
+            "query": "horário e área dos sanitários em Vila Madalena e São Bento São Paulo",
+            "chunk_id": ""
+          }
+        },
+        {
+          "step": 1,
+          "raw": "{\"action\": \"read_chunk\", \"query\": \"\", \"chunk_id\": \"F06-sanitario-sao-bento-1\"}",
+          "action": {
+            "action": "read_chunk",
+            "query": "",
+            "chunk_id": "F06-sanitario-sao-bento-1"
+          }
+        },
+        {
+          "step": 2,
+          "raw": "{\"action\": \"read_chunk\", \"query\": \"\", \"chunk_id\": \"F06-sanitario-vila-madalena-2\"}",
+          "action": {
+            "action": "read_chunk",
+            "query": "",
+            "chunk_id": "F06-sanitario-vila-madalena-2"
+          }
+        },
+        {
+          "step": 3,
+          "raw": "{\"action\": \"finish\", \"query\": \"\", \"chunk_id\": \"\"}",
+          "action": {
+            "action": "finish",
+            "query": "",
+            "chunk_id": ""
+          }
+        }
+      ],
+      "errors": [],
+      "elapsed_seconds": 10.319357399999717,
+      "calls": 5,
+      "tokens": 13923,
+      "case_id": "T35",
+      "category": "composta",
+      "semantic_group": "F06-sanitario-vila-madalena-2+F06-sanitario-sao-bento-1",
+      "score": {
+        "case_id": "T35",
+        "configuration": "C",
+        "category": "composta",
+        "expected_status": "respondido",
+        "status": "parcial",
+        "status_correct": false,
+        "full_correct": false,
+        "partial_correct": true,
+        "answerable": true,
+        "unit_hits": [
+          true,
+          true
+        ],
+        "condition_hits": [],
+        "missing_information_hits": [],
+        "unit_coverage": 1.0,
+        "condition_coverage": null,
+        "json_raw": true,
+        "json_delivered": true,
+        "citation_exists": true,
+        "citation_seen": true,
+        "citation_valid": true,
+        "citation_sufficient": true,
+        "evidence_group_coverage": 1.0,
+        "correct_refusal": false,
+        "improper_refusal": false,
+        "technical_failure": false,
+        "hallucination_raw": null,
+        "hallucination_delivered": false,
+        "hallucination_raw_evaluable": false,
+        "hallucination_delivered_evaluable": true,
+        "forbidden_raw": [],
+        "forbidden_delivered": [],
+        "recall1": 0.5,
+        "recall3": 1.0,
+        "after_filter": 1.0,
+        "accumulated": 1.0,
+        "elapsed_seconds": 10.319357399999717,
+        "calls": 5,
+        "tokens": 13923,
+        "judgment_method": "auditoria automática de unidades/condições documentais e extratos; prosa extra não avaliada",
+        "judgment_reasons": [
+          "status 'parcial'; esperado respondido"
+        ],
+        "raw_support_limitation": "Sem auditoria semântica exaustiva de afirmações livres; null não significa ausência de alucinação."
+      }
+    },
+    "probable_cause": "Com ambos os trechos corretos já vistos, a prosa calculou incorretamente a diferença entre 4h40 e 6h como 1h40. Além disso, criou exigências de capacidade, posição de rampas e disponibilidade atual não solicitadas, rotulando como parcial uma comparação documental já coberta. A entrega extrativa retirou a conta, mas manteve status e lacunas indevidos.",
+    "proposed_correction": "Manter a separação entre prosa bruta e extratos. Em versão futura, não calcular diferenças desnecessárias ou usar cálculo determinístico de horários quando pedido; restringir lacunas aos elementos efetivamente perguntados. Validar mudanças em novo teste, sem corrigir esta execução. Preservar esta rodada e exigir novo teste independente antes de alegar ganho."
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "line": "1-Azul",
+    "station": "JABAQUARA",
+    "local": "Terminal Rodoviário",
+    "hours": "Todos os dias, das 5h à 1h",
+    "administration": "SOCICAM"
+  },
+  {
+    "line": "1-Azul",
+    "station": "CONCEIÇÃO",
+    "local": "Área Livre",
+    "hours": "Todos os dias, das 5h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "1-Azul",
+    "station": "VILA MARIANA",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, das 5h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "1-Azul",
+    "station": "ANA ROSA",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "1-Azul",
+    "station": "SÃO BENTO",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h.",
+    "administration": "Metrô"
+  },
+  {
+    "line": "1-Azul",
+    "station": "LUZ",
+    "local": "Mezanino (Área Paga)",
+    "hours": "Todos os dias, das 6h às 22h",
+    "administration": "RZK"
+  },
+  {
+    "line": "1-Azul",
+    "station": "ARMÊNIA",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "1-Azul",
+    "station": "PORTUGUESA-TIETÊ",
+    "local": "Terminal Rodoviário (área desembarque)",
+    "hours": "Todos os dias, 24h por dia",
+    "administration": "SOCICAM"
+  },
+  {
+    "line": "1-Azul",
+    "station": "PORTUGUESA-TIETÊ",
+    "local": "Terminal Rodoviário (mezanino)",
+    "hours": "Todos os dias, 24h por dia",
+    "administration": "SOCICAM"
+  },
+  {
+    "line": "2-Verde",
+    "station": "VILA MADALENA",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, das 6h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "2-Verde",
+    "station": "CLÍNICAS",
+    "local": "Mezanino (Área Paga)",
+    "hours": "Todos os dias, das 6h às 22h",
+    "administration": "Ductus"
+  },
+  {
+    "line": "2-Verde",
+    "station": "CONSOLAÇÃO",
+    "local": "Corredor entre o Metrô e a Linha 4 (Área Paga)",
+    "hours": "Todos os dias, das 6h às 22h",
+    "administration": "Ductus"
+  },
+  {
+    "line": "2-Verde",
+    "station": "TRIANON",
+    "local": "Mezanino Leste",
+    "hours": "Todos os dias, das 6h às 22h",
+    "administration": "Ductus"
+  },
+  {
+    "line": "2-Verde",
+    "station": "BRIGADEIRO",
+    "local": "Mezanino Leste",
+    "hours": "Todos os dias, das 6h às 20:30h",
+    "administration": "Ductus"
+  },
+  {
+    "line": "2-Verde",
+    "station": "PARAÍSO",
+    "local": "Área Livre",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "2-Verde",
+    "station": "CHÁCARA KLABIN",
+    "local": "Mezanino de interligação com a Linha 5-Lilás",
+    "hours": "Todos os dias, das 4h40 à 0h.",
+    "administration": "Metrô"
+  },
+  {
+    "line": "2-Verde",
+    "station": "SACOMÃ",
+    "local": "Área Livre",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "2-Verde",
+    "station": "TAMANDUATEÍ",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "CORINTHIANS-ITAQUERA",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, das 5h à 1h",
+    "administration": "Shopping Itaquera"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "ARTUR ALVIM",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias, das 6h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "ARTUR ALVIM",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PATRIARCA- VILA RÉ",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias das 6h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PATRIARCA- VILA RÉ",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "GUILHERMINA-ESPERANÇA",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias das 6h às 22h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "GUILHERMINA-ESPERANÇA",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, das 6h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "VILA MATILDE",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PENHA-LOJAS BESNI",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PENHA-LOJAS BESNI",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias, das 5h à 0h.",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "CARRÃO-ASSAÍ ATACADISTA",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "CARRÃO-ASSAÍ ATACADISTA",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "TATUAPÉ",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "TATUAPÉ",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "BELÉM",
+    "local": "Terminal de ônibus sul",
+    "hours": "Todos os dias, das 5h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "BELÉM",
+    "local": "Terminal de ônibus norte",
+    "hours": "Todos os dias, das 5h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "BRÁS",
+    "local": "Terminal de ônibus",
+    "hours": "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+    "administration": "Concessionária do Terminal"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PEDRO II",
+    "local": "Área Livre",
+    "hours": "Todos os dias, das 6h às 21h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "SÉ",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PALMEIRAS-BARRA FUNDA",
+    "local": "Área Livre",
+    "hours": "Todos os dias, das 5h à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "3-Vermelha",
+    "station": "PALMEIRAS-BARRA FUNDA",
+    "local": "Terminal Rodoviário",
+    "hours": "Todos os dias, 24 horas por dia",
+    "administration": "SOCICAM"
+  },
+  {
+    "line": "15-Prata",
+    "station": "VILA PRUDENTE",
+    "local": "Área Paga – Área de Transferência para a Linha 2-Verde",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "ORATÓRIO",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "SÃO LUCAS",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "CAMILO HADDAD",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "VILA TOLSTÓI",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "VILA UNIÃO",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "JARDIM PLANALTO",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "SAPOPEMBA",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "FAZENDA DA JUTA",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "SÃO MATEUS",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  },
+  {
+    "line": "15-Prata",
+    "station": "JARDIM COLONIAL",
+    "local": "Área Paga",
+    "hours": "Todos os dias, das 4h40 à 0h",
+    "administration": "Metrô"
+  }
+]

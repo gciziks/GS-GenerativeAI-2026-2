@@ -1,0 +1,208 @@
+{
+  "review_method": "Revisão documental por IA, sem humana",
+  "run_id": "20261112T061006Z-teste",
+  "reviewed_at": "2026-11-12",
+  "scope": "Cinco erros reais selecionados após a rodada final de 180 inferências, sem alterar saídas, corpus, prompts ou gabaritos.",
+  "inputs": {
+    "raw_sha256": "1db808739a63de2a86e44a19381956ea02b7dc69d1b3359b348021ca30bf9487",
+    "cases_sha256": "cd5464827a32bc327af24670fbc1e5b1d3f8f50b1f97e0ec4976097d557ac2e0",
+    "corpus_sha256": "e60ca9f7f7418da826b7df332738dc8dc7a28e72c0a4cd727fcd60921efacc74"
+  },
+  "selection_policy": "Diversidade de falhas: contrato, recuperação/irrelevância, condição temporal, recusa parcial e erro aritmético bruto. Revisão compara fonte, pergunta e texto; não seleciona só pelo score automático.",
+  "errors": [
+    {
+      "configuration": "A",
+      "case_id": "T03",
+      "error_types": [
+        "contrato",
+        "citação inventada",
+        "marco temporal incorreto"
+      ],
+      "probable_cause": "Sem contexto, o modelo inventou uma regra de edital e uma transcrição atribuída ao art.46, além de preencher evidence com ID não recebido. O único reparo não resolveu o contrato; a entrega tornou-se indisponivel. Causa provável: combinação de conhecimento gerado sem suporte e baixa adesão à exigência evidence=[] do baseline, não indisponibilidade do servidor.",
+      "proposed_correction": "Em versão futura, impor evidence=[] estruturalmente no schema de A e no reparo, preservando liberdade para responder ou reconhecer incerteza. Auditar a prosa separadamente. Medir em novo conjunto independente; não recalcular o placar desta rodada.",
+      "documentary_review": "A fonte SPTrans F04, pergunta 24141, conta até 20 dias da aprovação. A saída bruta afirma início em publicação de edital/notificação e atribui ao art.46 uma redação que não é a norma coletada. O art.46 trata de igualdade e acessibilidade, não desse prazo de entrega. O ID art_46_lbi não existe no corpus nem foi visto; seen está vazio. Há erro factual bruto e falha real de contrato após reparo. A entrega indisponivel é falha técnica de tarefa; não é recusa correta nem afirmação pública de prazo.",
+      "source_ids": [
+        "F04",
+        "F07"
+      ],
+      "chunk_ids": [
+        "F04-faq-24141",
+        "F07-art-46"
+      ],
+      "seen_chunk_ids": [],
+      "raw_evidence_path": "avaliacao/resultados/20261112T061006Z-teste/raw.jsonl",
+      "question": "A partir de quando é contado o prazo publicado de entrega do Bilhete Especial PcD?",
+      "expected_status": "respondido",
+      "delivered_status": "indisponivel",
+      "source_references": [
+        {
+          "chunk_id": "F04-faq-24141",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "locator": "#pergunta_24141 — Qual o prazo para entrega do Bilhete Único?"
+        },
+        {
+          "chunk_id": "F07-art-46",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf",
+          "locator": "Lei 13.146/2015, art. 46; PDF página 16"
+        }
+      ]
+    },
+    {
+      "configuration": "B",
+      "case_id": "T01",
+      "error_types": [
+        "recuperação",
+        "evidência verdadeira mas irrelevante",
+        "insuficiência"
+      ],
+      "probable_cause": "A única busca top3 trouxe nome social, atraso de entrega e renovação, deixando de fora a FAQ sobre comparecimento pessoal. O modelo usou extratos desses três assuntos como uma resposta parcial, embora nenhum respondesse à possibilidade de representação no cadastramento. Causa provável: similaridade semântica dominada por termos genéricos de Bilhete/posto/cadastro e ausência de verificação de pertinência antes da entrega.",
+      "proposed_correction": "Avaliar no desenvolvimento busca que preserve a intenção representação versus comparecimento pessoal e, se justificado, combinação lexical/densa compartilhada por B/C. Fazer guarda de suficiência por pergunta: não exibir trechos apenas relacionados como parte respondida. Validar em nova rodada independente.",
+      "documentary_review": "A FAQ24139 orienta comparecimento pessoal do interessado ao posto com documentação. Esse é o trecho ouro F04-faq-24139, ausente do top3 e de seen. As citações entregues são íntegras, mas tratam de nome social, não recebimento e renovação. Logo, não respondem sequer a uma parte material da pergunta de representação; parcial não é justificado por esses extratos. O erro não depende de correspondência lexical do avaliador.",
+      "source_ids": [
+        "F04"
+      ],
+      "chunk_ids": [
+        "F04-faq-24139"
+      ],
+      "seen_chunk_ids": [
+        "F04-faq-24145",
+        "F04-faq-24147",
+        "F04-faq-24155"
+      ],
+      "raw_evidence_path": "avaliacao/resultados/20261112T061006Z-teste/raw.jsonl",
+      "question": "Para cadastrar o Bilhete Especial PcD no posto, o interessado pode ser substituído por um representante?",
+      "expected_status": "respondido",
+      "delivered_status": "parcial",
+      "source_references": [
+        {
+          "chunk_id": "F04-faq-24139",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "locator": "#pergunta_24139 — É possível enviar um representante ao Posto de Atendimento - Bilhete Único Especial para fazer o cadastramento em nome da pessoa com deficiência?"
+        }
+      ]
+    },
+    {
+      "configuration": "C",
+      "case_id": "T33",
+      "error_types": [
+        "condição temporal omitida",
+        "inferência bruta sem suporte",
+        "busca não decomposta"
+      ],
+      "probable_cause": "O agente fez duas buscas quase equivalentes sobre análise e entrega e leu o mesmo trecho de atraso de entrega duas vezes, gastando as quatro ferramentas sem recuperar os dois marcos temporais. A prosa bruta transformou a menção a 20 dias do atraso em prazo contado da solicitação. A extração removeu essa inferência, mas restou só orientação sobre não recebimento, insuficiente para comparar os prazos.",
+      "proposed_correction": "Em versão futura, decompor perguntas compostas em fatos e marcos distintos, evitar leituras repetidas sem ganho e exigir fonte para a condição de início de cada prazo. Não inferir marco inicial a partir de regra de atraso. Avaliar o ajuste em novo teste independente, conservando os rastros atuais.",
+      "documentary_review": "F04-faq-69246 informa análise em até 20 dias após formulário e documentação médica obrigatória; F04-faq-24141 informa entrega em até 20 dias após aprovação. O agente viu F04-faq-24147, que trata de não recebimento, não define início do prazo. A frase bruta de entrega a partir da solicitação contraria a condição publicada de aprovação. Nenhum dos dois grupos ouro foi consultado, e o extrato entregue não compara os dois prazos. A renderização evitou publicar o marco incorreto, mas não recuperou o conteúdo ausente.",
+      "source_ids": [
+        "F04"
+      ],
+      "chunk_ids": [
+        "F04-faq-69246",
+        "F04-faq-24141",
+        "F04-faq-24147"
+      ],
+      "seen_chunk_ids": [
+        "F04-faq-24147",
+        "F04-faq-24137",
+        "F04-faq-24159",
+        "F04-faq-24138"
+      ],
+      "raw_evidence_path": "avaliacao/resultados/20261112T061006Z-teste/raw.jsonl",
+      "question": "O prazo de análise do Bilhete PcD e o de entrega começam no mesmo momento? Quais são?",
+      "expected_status": "respondido",
+      "delivered_status": "parcial",
+      "source_references": [
+        {
+          "chunk_id": "F04-faq-69246",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "locator": "#pergunta_69246 — Qual o prazo de análise da solicitação de Bilhete Único da Pessoa com Deficiência?"
+        },
+        {
+          "chunk_id": "F04-faq-24141",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "locator": "#pergunta_24141 — Qual o prazo para entrega do Bilhete Único?"
+        },
+        {
+          "chunk_id": "F04-faq-24147",
+          "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pcd",
+          "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?"
+        }
+      ]
+    },
+    {
+      "configuration": "C",
+      "case_id": "T38",
+      "error_types": [
+        "recusa indevida",
+        "falha de decomposição de pergunta parcial"
+      ],
+      "probable_cause": "O agente escolheu finish imediatamente, sem busca, tratando localização do sanitário e estoque atual de sabonete como um único tema fora do domínio. Causa provável: decisão prematura de escopo disparada pelo componente operacional ausente, sem reconhecer a unidade documental coberta.",
+      "proposed_correction": "Em versão futura, reconhecer a parte documental da pergunta composta e buscar sua evidência antes de recusar o restante. Entregar localização com status parcial e delimitar ausência de estoque atual, sem inventar telemetria. Conferir essa política em novo conjunto independente.",
+      "documentary_review": "F06-sanitario-luz-1 localiza o sanitário da Luz no mezanino, área paga, e documenta horário usual 6h–22h. O corpus não fornece estoque atual de sabonete. Portanto a tarefa pede resposta parcial: localização coberta e estoque desconhecido. O rastro mostra finish na primeira ação e seen vazio; tanto a recusa total quanto a afirmação bruta de que a localização não está no escopo são incorretas. Não é um erro de sinonímia ou apenas de status abstrato: uma informação respondível deixou de ser entregue.",
+      "source_ids": [
+        "F06"
+      ],
+      "chunk_ids": [
+        "F06-sanitario-luz-1"
+      ],
+      "seen_chunk_ids": [],
+      "raw_evidence_path": "avaliacao/resultados/20261112T061006Z-teste/raw.jsonl",
+      "question": "Onde fica o sanitário da Luz e há sabonete disponível agora?",
+      "expected_status": "parcial",
+      "delivered_status": "fora_escopo",
+      "source_references": [
+        {
+          "chunk_id": "F06-sanitario-luz-1",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "locator": "Tabela Linha 1-Azul; estação LUZ"
+        }
+      ]
+    },
+    {
+      "configuration": "C",
+      "case_id": "T35",
+      "error_types": [
+        "erro aritmético bruto",
+        "status parcial indevido",
+        "lacunas não solicitadas"
+      ],
+      "probable_cause": "Com ambos os trechos corretos já vistos, a prosa calculou incorretamente a diferença entre 4h40 e 6h como 1h40. Além disso, criou exigências de capacidade, posição de rampas e disponibilidade atual não solicitadas, rotulando como parcial uma comparação documental já coberta. A entrega extrativa retirou a conta, mas manteve status e lacunas indevidos.",
+      "proposed_correction": "Manter a separação entre prosa bruta e extratos. Em versão futura, não calcular diferenças desnecessárias ou usar cálculo determinístico de horários quando pedido; restringir lacunas aos elementos efetivamente perguntados. Validar mudanças em novo teste, sem corrigir esta execução.",
+      "documentary_review": "F06-sanitario-sao-bento-1 informa área paga e 4h40–0h; F06-sanitario-vila-madalena-2 informa terminal de ônibus e 6h–0h. A diferença entre os inícios é 80 minutos, isto é, 1h20, não 1h40 como afirma raw. As duas fontes foram consultadas e estão integralmente entregues, tornando possível comparar horários e áreas documentais. A conta falsa não foi apresentada no texto extrativo final; entretanto status parcial e missing_information solicitam parâmetros alheios à pergunta. O erro aritmético bruto e a limitação inventada são materiais, sem depender do matcher.",
+      "source_ids": [
+        "F06"
+      ],
+      "chunk_ids": [
+        "F06-sanitario-sao-bento-1",
+        "F06-sanitario-vila-madalena-2"
+      ],
+      "seen_chunk_ids": [
+        "F06-sanitario-sao-bento-1",
+        "F06-sanitario-vila-madalena-2",
+        "F06-sanitario-vila-tolstoi-15"
+      ],
+      "raw_evidence_path": "avaliacao/resultados/20261112T061006Z-teste/raw.jsonl",
+      "question": "Compare o horário e a área dos sanitários de Vila Madalena e São Bento.",
+      "expected_status": "respondido",
+      "delivered_status": "parcial",
+      "source_references": [
+        {
+          "chunk_id": "F06-sanitario-sao-bento-1",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "locator": "Tabela Linha 1-Azul; estação SÃO BENTO"
+        },
+        {
+          "chunk_id": "F06-sanitario-vila-madalena-2",
+          "url": "https://www.metro.sp.gov.br/sua-viagem/acessibilidade/sanitario-publico/",
+          "locator": "Tabela Linha 2-Verde; estação VILA MADALENA"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    "A seleção inclui diferenças entre raw e delivered: uma entrega extrativa pode impedir publicação de uma afirmação bruta falsa sem tornar a tarefa completa.",
+    "A recusa correta não é certificada apenas pelo formato. Falhas indisponivel não contam como recusas factuais corretas.",
+    "Muitos casos com extratos completos receberam parcial por exigências não perguntadas; isso é erro de status/completude, sem demonstrar que os extratos são falsos.",
+    "O avaliador objetivo exige termos, condições e IDs ouro; julgamentos semânticos posteriores podem divergir. Nenhuma divergência autoriza reescrever os resultados congelados.",
+    "Revisão por IA é falível e não representa auditoria humana; causas são hipóteses, e correções são propostas ainda não medidas."
+  ]
+}

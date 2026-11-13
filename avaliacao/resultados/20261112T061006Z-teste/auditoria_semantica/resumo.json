@@ -1,0 +1,239 @@
+{
+  "method": "Juiz automático posterior com a mesma LLM; julgamentos não substituem métricas objetivas.",
+  "limitations": [
+    "Possível viés de autoavaliação do modelo e erros do próprio juiz.",
+    "Não houve revisão humana presumida; null não equivale a ausência de alucinação.",
+    "Auditoria limitada às fontes pertinentes e citações identificadas; não avalia verdade universal.",
+    "Tempo e tokens do juiz são separados da latência/custo da tarefa medida."
+  ],
+  "configurations": {
+    "A": {
+      "n": 60,
+      "technical_judge_failures": 0,
+      "raw": {
+        "task_success": {
+          "numerator": 5,
+          "denominator": 60,
+          "rate": 0.08333333333333333,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 34,
+          "denominator": 43,
+          "rate": 0.7906976744186046,
+          "not_evaluable": 17
+        },
+        "citation_sufficient": {
+          "numerator": 5,
+          "denominator": 60,
+          "rate": 0.08333333333333333,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 9,
+          "denominator": 60,
+          "rate": 0.15,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 4,
+          "parcial": 13,
+          "irrelevante": 0,
+          "recusa_correta": 1,
+          "recusa_indevida": 0,
+          "falha_tecnica": 1,
+          "nao_avaliavel": 41
+        }
+      },
+      "delivered": {
+        "task_success": {
+          "numerator": 9,
+          "denominator": 60,
+          "rate": 0.15,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 39,
+          "denominator": 49,
+          "rate": 0.7959183673469388,
+          "not_evaluable": 11
+        },
+        "citation_sufficient": {
+          "numerator": 7,
+          "denominator": 60,
+          "rate": 0.11666666666666667,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 10,
+          "denominator": 60,
+          "rate": 0.16666666666666666,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 6,
+          "parcial": 3,
+          "irrelevante": 0,
+          "recusa_correta": 1,
+          "recusa_indevida": 0,
+          "falha_tecnica": 1,
+          "nao_avaliavel": 49
+        }
+      },
+      "judge_total_tokens": 143303,
+      "judge_elapsed_seconds": 739.9709308000001
+    },
+    "B": {
+      "n": 60,
+      "technical_judge_failures": 0,
+      "raw": {
+        "task_success": {
+          "numerator": 37,
+          "denominator": 60,
+          "rate": 0.6166666666666667,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 0,
+          "denominator": 47,
+          "rate": 0.0,
+          "not_evaluable": 13
+        },
+        "citation_sufficient": {
+          "numerator": 41,
+          "denominator": 60,
+          "rate": 0.6833333333333333,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 47,
+          "denominator": 60,
+          "rate": 0.7833333333333333,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 41,
+          "parcial": 7,
+          "irrelevante": 0,
+          "recusa_correta": 1,
+          "recusa_indevida": 0,
+          "falha_tecnica": 0,
+          "nao_avaliavel": 11
+        }
+      },
+      "delivered": {
+        "task_success": {
+          "numerator": 40,
+          "denominator": 60,
+          "rate": 0.6666666666666666,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 1,
+          "denominator": 49,
+          "rate": 0.02040816326530612,
+          "not_evaluable": 11
+        },
+        "citation_sufficient": {
+          "numerator": 43,
+          "denominator": 60,
+          "rate": 0.7166666666666667,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 48,
+          "denominator": 60,
+          "rate": 0.8,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 40,
+          "parcial": 7,
+          "irrelevante": 0,
+          "recusa_correta": 1,
+          "recusa_indevida": 0,
+          "falha_tecnica": 0,
+          "nao_avaliavel": 12
+        }
+      },
+      "judge_total_tokens": 156723,
+      "judge_elapsed_seconds": 721.4924937999931
+    },
+    "C": {
+      "n": 60,
+      "technical_judge_failures": 0,
+      "raw": {
+        "task_success": {
+          "numerator": 32,
+          "denominator": 60,
+          "rate": 0.5333333333333333,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 5,
+          "denominator": 45,
+          "rate": 0.1111111111111111,
+          "not_evaluable": 15
+        },
+        "citation_sufficient": {
+          "numerator": 35,
+          "denominator": 60,
+          "rate": 0.5833333333333334,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 40,
+          "denominator": 60,
+          "rate": 0.6666666666666666,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 35,
+          "parcial": 6,
+          "irrelevante": 0,
+          "recusa_correta": 0,
+          "recusa_indevida": 0,
+          "falha_tecnica": 0,
+          "nao_avaliavel": 19
+        }
+      },
+      "delivered": {
+        "task_success": {
+          "numerator": 37,
+          "denominator": 60,
+          "rate": 0.6166666666666667,
+          "not_evaluable": 0
+        },
+        "hallucination": {
+          "numerator": 6,
+          "denominator": 46,
+          "rate": 0.13043478260869565,
+          "not_evaluable": 14
+        },
+        "citation_sufficient": {
+          "numerator": 37,
+          "denominator": 60,
+          "rate": 0.6166666666666667,
+          "not_evaluable": 0
+        },
+        "complete_audit": {
+          "numerator": 40,
+          "denominator": 60,
+          "rate": 0.6666666666666666,
+          "not_evaluable": 0
+        },
+        "relevance": {
+          "suficiente": 38,
+          "parcial": 6,
+          "irrelevante": 0,
+          "recusa_correta": 0,
+          "recusa_indevida": 0,
+          "falha_tecnica": 0,
+          "nao_avaliavel": 16
+        }
+      },
+      "judge_total_tokens": 152034,
+      "judge_elapsed_seconds": 736.7074760999985
+    }
+  }
+}

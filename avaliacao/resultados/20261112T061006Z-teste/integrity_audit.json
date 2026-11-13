@@ -1,0 +1,25 @@
+{
+  "run_id": "20261112T061006Z-teste",
+  "inferences": 180,
+  "paired_cases_per_configuration": {
+    "A": 60,
+    "B": 60,
+    "C": 60
+  },
+  "inputs_unchanged_during_run": true,
+  "current_inputs_match_frozen": true,
+  "factual_BC_responses": 78,
+  "delivered_quotes_existing_seen_exact": 98,
+  "max_tools_per_C": 4,
+  "tool_calls": {
+    "search": 62,
+    "read_chunk": 55
+  },
+  "technical_failures": {
+    "A": 15,
+    "B": 0,
+    "C": 0
+  },
+  "environment_sha256": "1441f8866eed1b9a8643f3ebb8ed39f120aec74921dc53377084921d9ecae3ba",
+  "limitation": "Integridade não prova relevância nem suficiência. Falhas de tarefa continuam no placar e na auditoria semântica."
+}

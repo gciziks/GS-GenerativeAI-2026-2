@@ -1,0 +1,31 @@
+{
+  "run_id": "20261112T060113Z-validacao",
+  "rule": "maior acerto global em validação entre B/C; desempate menor mediana de latência",
+  "selected": "B",
+  "scores": {
+    "B": {
+      "full_correct": {
+        "sum": 14,
+        "denominator": 20,
+        "mean": 0.7
+      },
+      "latency": {
+        "median": 2.5451342500000464,
+        "p95": 4.855728599999566,
+        "p95_method": "nearest rank ceil(0.95*n)"
+      }
+    },
+    "C": {
+      "full_correct": {
+        "sum": 12,
+        "denominator": 20,
+        "mean": 0.6
+      },
+      "latency": {
+        "median": 4.8200745000003735,
+        "p95": 9.507582899999761,
+        "p95_method": "nearest rank ceil(0.95*n)"
+      }
+    }
+  }
+}

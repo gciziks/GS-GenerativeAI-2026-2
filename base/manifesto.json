@@ -1,0 +1,12 @@
+{
+  "version": "2026-11-12-v1",
+  "corpus_sha256": "e60ca9f7f7418da826b7df332738dc8dc7a28e72c0a4cd727fcd60921efacc74",
+  "curation_sha256": "34b7d05307ceefc232f06cc03a9260db2feb6998dd926412442f90a22115a193",
+  "sources_sha256": "0835bd7dd1d94900f18b547be9438d4c25a2af1d3bd8584ee82070bc9142d860",
+  "chunks": 114,
+  "representation": "curated_summary",
+  "sources": 7,
+  "collection_policy": "Atualização de rede somente por fetch-sources explícito. Nova coleta exige nova curadoria, índice e calibração.",
+  "raw_snapshots_distributed": false,
+  "tokenizer": "intfloat/multilingual-e5-small"
+}

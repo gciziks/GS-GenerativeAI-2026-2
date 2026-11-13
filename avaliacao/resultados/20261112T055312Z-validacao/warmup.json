@@ -1,0 +1,159 @@
+{
+  "configuration": "B",
+  "question": "O que é o Atende+ e ele é pago?",
+  "raw": "{\n  \"status\": \"respondido\",\n  \"answer\": \"O Atende+ é um serviço de transporte gratuito porta a porta oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans, destinado a pessoas com autismo, surdocegueira ou deficiência física severa. O serviço é gratuito e está disponível das 7h às 20h, de segunda a domingo, exceto feriados. O Atende+ é oferecido exclusivamente para moradores do município de São Paulo.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"F01-apresentacao\",\n      \"quote\": \"Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.\"\n    },\n    {\n      \"chunk_id\": \"F02-gestao\",\n      \"quote\": \"O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.\"\n    },\n    {\n      \"chunk_id\": \"F03-faq-16769\",\n      \"quote\": \"A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.\"\n    }\n  ],\n  \"missing_information\": [],\n  \"refusal_reason\": null\n}",
+  "raw_attempts": [
+    "{\n  \"status\": \"respondido\",\n  \"answer\": \"O Atende+ é um serviço de transporte gratuito porta a porta oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans, destinado a pessoas com autismo, surdocegueira ou deficiência física severa. O serviço é gratuito e está disponível das 7h às 20h, de segunda a domingo, exceto feriados. O Atende+ é oferecido exclusivamente para moradores do município de São Paulo.\",\n  \"evidence\": [\n    {\n      \"chunk_id\": \"F01-apresentacao\",\n      \"quote\": \"Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.\"\n    },\n    {\n      \"chunk_id\": \"F02-gestao\",\n      \"quote\": \"O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.\"\n    },\n    {\n      \"chunk_id\": \"F03-faq-16769\",\n      \"quote\": \"A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.\"\n    }\n  ],\n  \"missing_information\": [],\n  \"refusal_reason\": null\n}"
+  ],
+  "delivered": {
+    "status": "respondido",
+    "answer": "Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.\n\nO Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.\n\nA FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.",
+    "evidence": [
+      {
+        "chunk_id": "F01-apresentacao",
+        "quote": "Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados."
+      },
+      {
+        "chunk_id": "F02-gestao",
+        "quote": "O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência."
+      },
+      {
+        "chunk_id": "F03-faq-16769",
+        "quote": "A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município."
+      }
+    ],
+    "missing_information": [],
+    "refusal_reason": null
+  },
+  "seen": [
+    {
+      "source_id": "F02",
+      "key": "gestao",
+      "title": "Atende+: gestão e operação",
+      "text": "O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.",
+      "locator": "Sobre o Atende; primeiro parágrafo",
+      "representation": "curated_summary",
+      "chunk_id": "F02-gestao",
+      "source_version": "80bc76960bc4c295ca7c8f8f7007240ac9ce036db9074c9632d054a4bfdd838f",
+      "publisher": "SPTrans",
+      "url": "https://www.sptrans.com.br/atende/sobre-o-atende",
+      "retrieved_at": "2026-11-12T05:40:16.026289+00:00",
+      "jurisdiction": "São Paulo — serviço/operador da fonte",
+      "service": "Atende+",
+      "section": "Sobre o Atende; primeiro parágrafo",
+      "sha256": "56b92a1bbb92eb3bd10b3acd3d323c8a9d29ac4f0f825e342172409d18cf09da",
+      "word_count": 35,
+      "token_count": 52,
+      "score": 0.8922446370124817
+    },
+    {
+      "source_id": "F01",
+      "key": "apresentacao",
+      "title": "Atende+: modalidade e funcionamento",
+      "text": "Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.",
+      "locator": "Atende+; apresentação",
+      "representation": "curated_summary",
+      "chunk_id": "F01-apresentacao",
+      "source_version": "cc617b12970500d77e5759ec17aaf237640edff11d3e8627e28ddb5a85331752",
+      "publisher": "SPTrans",
+      "url": "https://www.sptrans.com.br/atende/",
+      "retrieved_at": "2026-11-12T05:40:15.629281+00:00",
+      "jurisdiction": "São Paulo — serviço/operador da fonte",
+      "service": "Atende+",
+      "section": "Atende+; apresentação",
+      "sha256": "a3cf4e22c00301823f533ab7f669140a75d44d9b6bfeea6511a5bdf709fe4297",
+      "word_count": 34,
+      "token_count": 56,
+      "score": 0.889510452747345
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16769",
+      "title": "Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+      "text": "A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.",
+      "locator": "#pergunta_16769 — Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+      "representation": "curated_summary",
+      "chunk_id": "F03-faq-16769",
+      "source_version": "78b000dbee3c0467c36aec3f4395ee635b3ca2326472a19ddea7857bbe93437c",
+      "publisher": "SPTrans",
+      "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=atende",
+      "retrieved_at": "2026-11-12T05:40:16.883158+00:00",
+      "jurisdiction": "São Paulo — serviço/operador da fonte",
+      "service": "Atende+",
+      "section": "#pergunta_16769 — Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+      "sha256": "39ff1326c1425d57869db90caf870f95f64e82202a86a56c7b945d289a340b2e",
+      "word_count": 26,
+      "token_count": 35,
+      "score": 0.8786290884017944
+    }
+  ],
+  "rankings": [
+    [
+      {
+        "source_id": "F02",
+        "key": "gestao",
+        "title": "Atende+: gestão e operação",
+        "text": "O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.",
+        "locator": "Sobre o Atende; primeiro parágrafo",
+        "representation": "curated_summary",
+        "chunk_id": "F02-gestao",
+        "source_version": "80bc76960bc4c295ca7c8f8f7007240ac9ce036db9074c9632d054a4bfdd838f",
+        "publisher": "SPTrans",
+        "url": "https://www.sptrans.com.br/atende/sobre-o-atende",
+        "retrieved_at": "2026-11-12T05:40:16.026289+00:00",
+        "jurisdiction": "São Paulo — serviço/operador da fonte",
+        "service": "Atende+",
+        "section": "Sobre o Atende; primeiro parágrafo",
+        "sha256": "56b92a1bbb92eb3bd10b3acd3d323c8a9d29ac4f0f825e342172409d18cf09da",
+        "word_count": 35,
+        "token_count": 52,
+        "score": 0.8922446370124817
+      },
+      {
+        "source_id": "F01",
+        "key": "apresentacao",
+        "title": "Atende+: modalidade e funcionamento",
+        "text": "Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.",
+        "locator": "Atende+; apresentação",
+        "representation": "curated_summary",
+        "chunk_id": "F01-apresentacao",
+        "source_version": "cc617b12970500d77e5759ec17aaf237640edff11d3e8627e28ddb5a85331752",
+        "publisher": "SPTrans",
+        "url": "https://www.sptrans.com.br/atende/",
+        "retrieved_at": "2026-11-12T05:40:15.629281+00:00",
+        "jurisdiction": "São Paulo — serviço/operador da fonte",
+        "service": "Atende+",
+        "section": "Atende+; apresentação",
+        "sha256": "a3cf4e22c00301823f533ab7f669140a75d44d9b6bfeea6511a5bdf709fe4297",
+        "word_count": 34,
+        "token_count": 56,
+        "score": 0.889510452747345
+      },
+      {
+        "source_id": "F03",
+        "key": "faq-16769",
+        "title": "Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+        "text": "A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.",
+        "locator": "#pergunta_16769 — Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+        "representation": "curated_summary",
+        "chunk_id": "F03-faq-16769",
+        "source_version": "78b000dbee3c0467c36aec3f4395ee635b3ca2326472a19ddea7857bbe93437c",
+        "publisher": "SPTrans",
+        "url": "https://www.sptrans.com.br/perguntas-e-respostas/?sobre=atende",
+        "retrieved_at": "2026-11-12T05:40:16.883158+00:00",
+        "jurisdiction": "São Paulo — serviço/operador da fonte",
+        "service": "Atende+",
+        "section": "#pergunta_16769 — Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+        "sha256": "39ff1326c1425d57869db90caf870f95f64e82202a86a56c7b945d289a340b2e",
+        "word_count": 26,
+        "token_count": 35,
+        "score": 0.8786290884017944
+      }
+    ]
+  ],
+  "actions": [],
+  "errors": [],
+  "elapsed_seconds": 13.274105299999064,
+  "calls": 1,
+  "tokens": 2074
+}

@@ -1,0 +1,19 @@
+{
+  "executed_at": "2026-11-12T06:11:15.954467+00:00",
+  "command": ".venv/Scripts/python.exe -m pytest -q --basetemp .runtime/pytest-final",
+  "passed": 42,
+  "failed": 0,
+  "warnings": [
+    "Depreciação Starlette/httpx TestClient; sem falha funcional."
+  ],
+  "scope": [
+    "contrato e extratos alterados/não vistos",
+    "pergunta parcialmente coberta e suficiência",
+    "agente com decisões e orçamento",
+    "API fila/taxa/serialização",
+    "navegador desktop/mobile com HTTP simulado",
+    "corpus e parsers de FAQ/tabela/PDF",
+    "juiz semântico separado"
+  ],
+  "gpu_inference": false
+}

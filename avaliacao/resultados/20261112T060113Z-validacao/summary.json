@@ -1,0 +1,389 @@
+{
+  "A": {
+    "n": 20,
+    "full_correct": {
+      "sum": 6,
+      "denominator": 20,
+      "mean": 0.3
+    },
+    "partial_correct": {
+      "sum": 0,
+      "denominator": 20,
+      "mean": 0.0
+    },
+    "json_raw": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "json_delivered": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "status_correct": {
+      "sum": 8,
+      "denominator": 20,
+      "mean": 0.4
+    },
+    "citation_exists": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "citation_seen": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "citation_valid": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "citation_sufficient": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "hallucination_raw": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "hallucination_delivered": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "recall1": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "recall3": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "after_filter": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "accumulated": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "unit_coverage": {
+      "sum": 0.0,
+      "denominator": 10,
+      "mean": 0.0
+    },
+    "condition_coverage": {
+      "sum": 0.0,
+      "denominator": 5,
+      "mean": 0.0
+    },
+    "technical_failure": {
+      "sum": 0,
+      "denominator": 20,
+      "mean": 0.0
+    },
+    "answerable_success": {
+      "sum": 0,
+      "denominator": 10,
+      "mean": 0.0
+    },
+    "correct_refusal": {
+      "sum": 6,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "improper_refusal": {
+      "sum": 7,
+      "denominator": 10,
+      "mean": 0.7
+    },
+    "latency_seconds": {
+      "median": 2.088426750000508,
+      "p95": 6.010676200001399,
+      "p95_method": "nearest rank ceil(0.95*n)"
+    },
+    "calls": 24,
+    "tokens": 20738,
+    "categories": {
+      "fora_escopo": {
+        "correct": 4,
+        "n": 4
+      },
+      "sem_cobertura": {
+        "correct": 2,
+        "n": 6
+      },
+      "simples": {
+        "correct": 0,
+        "n": 10
+      }
+    }
+  },
+  "B": {
+    "n": 20,
+    "full_correct": {
+      "sum": 14,
+      "denominator": 20,
+      "mean": 0.7
+    },
+    "partial_correct": {
+      "sum": 2,
+      "denominator": 20,
+      "mean": 0.1
+    },
+    "json_raw": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "json_delivered": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "status_correct": {
+      "sum": 14,
+      "denominator": 20,
+      "mean": 0.7
+    },
+    "citation_exists": {
+      "sum": 9,
+      "denominator": 9,
+      "mean": 1.0
+    },
+    "citation_seen": {
+      "sum": 9,
+      "denominator": 9,
+      "mean": 1.0
+    },
+    "citation_valid": {
+      "sum": 9,
+      "denominator": 9,
+      "mean": 1.0
+    },
+    "citation_sufficient": {
+      "sum": 9,
+      "denominator": 10,
+      "mean": 0.9
+    },
+    "hallucination_raw": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "hallucination_delivered": {
+      "sum": 0,
+      "denominator": 16,
+      "mean": 0.0
+    },
+    "recall1": {
+      "sum": 6.0,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "recall3": {
+      "sum": 9.0,
+      "denominator": 10,
+      "mean": 0.9
+    },
+    "after_filter": {
+      "sum": 9.0,
+      "denominator": 10,
+      "mean": 0.9
+    },
+    "accumulated": {
+      "sum": 9.0,
+      "denominator": 10,
+      "mean": 0.9
+    },
+    "unit_coverage": {
+      "sum": 9.0,
+      "denominator": 10,
+      "mean": 0.9
+    },
+    "condition_coverage": {
+      "sum": 5.0,
+      "denominator": 5,
+      "mean": 1.0
+    },
+    "technical_failure": {
+      "sum": 0,
+      "denominator": 20,
+      "mean": 0.0
+    },
+    "answerable_success": {
+      "sum": 7,
+      "denominator": 10,
+      "mean": 0.7
+    },
+    "correct_refusal": {
+      "sum": 7,
+      "denominator": 10,
+      "mean": 0.7
+    },
+    "improper_refusal": {
+      "sum": 1,
+      "denominator": 10,
+      "mean": 0.1
+    },
+    "latency_seconds": {
+      "median": 2.5451342500000464,
+      "p95": 4.855728599999566,
+      "p95_method": "nearest rank ceil(0.95*n)"
+    },
+    "calls": 20,
+    "tokens": 34585,
+    "categories": {
+      "fora_escopo": {
+        "correct": 4,
+        "n": 4
+      },
+      "sem_cobertura": {
+        "correct": 3,
+        "n": 6
+      },
+      "simples": {
+        "correct": 7,
+        "n": 10
+      }
+    }
+  },
+  "C": {
+    "n": 20,
+    "full_correct": {
+      "sum": 12,
+      "denominator": 20,
+      "mean": 0.6
+    },
+    "partial_correct": {
+      "sum": 1,
+      "denominator": 20,
+      "mean": 0.05
+    },
+    "json_raw": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "json_delivered": {
+      "sum": 20,
+      "denominator": 20,
+      "mean": 1.0
+    },
+    "status_correct": {
+      "sum": 12,
+      "denominator": 20,
+      "mean": 0.6
+    },
+    "citation_exists": {
+      "sum": 10,
+      "denominator": 10,
+      "mean": 1.0
+    },
+    "citation_seen": {
+      "sum": 10,
+      "denominator": 10,
+      "mean": 1.0
+    },
+    "citation_valid": {
+      "sum": 10,
+      "denominator": 10,
+      "mean": 1.0
+    },
+    "citation_sufficient": {
+      "sum": 6,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "hallucination_raw": {
+      "sum": 0,
+      "denominator": 0,
+      "mean": null
+    },
+    "hallucination_delivered": {
+      "sum": 0,
+      "denominator": 13,
+      "mean": 0.0
+    },
+    "recall1": {
+      "sum": 3.0,
+      "denominator": 10,
+      "mean": 0.3
+    },
+    "recall3": {
+      "sum": 6.0,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "after_filter": {
+      "sum": 6.0,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "accumulated": {
+      "sum": 6.0,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "unit_coverage": {
+      "sum": 6.0,
+      "denominator": 10,
+      "mean": 0.6
+    },
+    "condition_coverage": {
+      "sum": 4.0,
+      "denominator": 5,
+      "mean": 0.8
+    },
+    "technical_failure": {
+      "sum": 0,
+      "denominator": 20,
+      "mean": 0.0
+    },
+    "answerable_success": {
+      "sum": 5,
+      "denominator": 10,
+      "mean": 0.5
+    },
+    "correct_refusal": {
+      "sum": 7,
+      "denominator": 10,
+      "mean": 0.7
+    },
+    "improper_refusal": {
+      "sum": 2,
+      "denominator": 10,
+      "mean": 0.2
+    },
+    "latency_seconds": {
+      "median": 4.8200745000003735,
+      "p95": 9.507582899999761,
+      "p95_method": "nearest rank ceil(0.95*n)"
+    },
+    "calls": 76,
+    "tokens": 173484,
+    "categories": {
+      "fora_escopo": {
+        "correct": 3,
+        "n": 4
+      },
+      "sem_cobertura": {
+        "correct": 4,
+        "n": 6
+      },
+      "simples": {
+        "correct": 5,
+        "n": 10
+      }
+    }
+  }
+}

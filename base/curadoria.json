@@ -1,0 +1,1423 @@
+{
+  "version": "2026-11-12-v1",
+  "records": [
+    {
+      "source_id": "F01",
+      "key": "apresentacao",
+      "title": "Atende+: modalidade e funcionamento",
+      "text": "Em São Paulo, o Atende+ é transporte gratuito porta a porta para pessoas com autismo, surdocegueira ou deficiência física severa. O horário publicado é das 7h às 20h, de segunda a domingo, exceto feriados.",
+      "locator": "Atende+; apresentação",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F01",
+      "key": "atraso",
+      "title": "Atende+: atraso superior a dez minutos",
+      "text": "Se o veículo do Atende+ atrasar mais de 10 minutos no dia da viagem, a orientação publicada é informar imediatamente a Central 156.",
+      "locator": "O que fazer em caso de atraso?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F02",
+      "key": "gestao",
+      "title": "Atende+: gestão e operação",
+      "text": "O Atende+ é oferecido pela Prefeitura de São Paulo e gerenciado pela SPTrans. A operação envolve empresas municipais de transporte coletivo e cooperativa de táxis acessíveis. A página cita a Lei Municipal 16.337/2015 como regência.",
+      "locator": "Sobre o Atende; primeiro parágrafo",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F02",
+      "key": "programacao",
+      "title": "Atende+: cadastro e viagens pré-agendadas",
+      "text": "O atendimento do Atende+ destina-se a clientes cadastrados e depende de programação pré-agendada de viagens. O cadastro não é um agendamento automático de qualquer viagem.",
+      "locator": "Sobre o Atende; atendimento cadastrado",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F02",
+      "key": "eventos",
+      "title": "Atende+: eventos de fim de semana",
+      "text": "Para eventos aos fins de semana do Atende+, instituições que trabalham com pessoas com deficiência fazem o pedido de transporte com antecedência mínima de dez dias. A instituição precisa de cadastro prévio na SPTrans.",
+      "locator": "Sobre o Atende; eventos aos fins de semana",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F02",
+      "key": "informacao",
+      "title": "Atende+: canais de informação",
+      "text": "Informações sobre o Atende+ podem ser obtidas na Central de Atendimento 156 da Prefeitura ou nos postos de atendimento da SPTrans.",
+      "locator": "Sobre o Atende; canais de informação",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16756",
+      "title": "A quem se destina o Serviço Atende+?",
+      "text": "O público do Atende+ é formado por pessoas com autismo, surdocegueira ou deficiência física e mobilidade altamente reduzida, sem condições de usar autonomamente o transporte convencional ou com grandes restrições de acesso e uso de equipamentos urbanos.",
+      "locator": "#pergunta_16756 — A quem se destina o Serviço Atende+?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16757",
+      "title": "Como posso me inscrever no programa Atende+?",
+      "text": "Para inscrição no Atende+, obtenha a Ficha de Avaliação Médica no site ou em posto da SPTrans e peça o preenchimento ao médico. Entregue-a em posto com agendamento ou envie a digitalização pelo site. São solicitados CPF e RG do usuário ou certidão de nascimento para menor, além de comprovante de endereço; o representante apresenta RG e comprovante. A FAQ exige documentos de identidade emitidos há até dez anos.",
+      "locator": "#pergunta_16757 — Como posso me inscrever no programa Atende+?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16758",
+      "title": "Fiz meu cadastro e estou aguardando atendimento. Por quanto tempo espero?",
+      "text": "No Atende+, o encaixe de usuários é reprocessado mensalmente conforme vagas nas rotas existentes. A FAQ informa que não é possível seguir a ordem cronológica de inscrição. Estar cadastrado não garante disponibilidade imediata de viagem.",
+      "locator": "#pergunta_16758 — Fiz meu cadastro e estou aguardando atendimento. Por quanto tempo espero?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16759",
+      "title": "Como faço para saber se consegui o atendimento?",
+      "text": "Para conferir o atendimento do Atende+, consulte o site ou a Central 156 no início do mês em curso, um dia útil antes da viagem. Quando houver atendimento, horário de embarque e prefixo do veículo estarão disponíveis.",
+      "locator": "#pergunta_16759 — Como faço para saber se consegui o atendimento?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16761",
+      "title": "Como posso cancelar minhas viagens?",
+      "text": "O cancelamento de viagens do Atende+ é registrado pelo site ou pela Central de Atendimento 156.",
+      "locator": "#pergunta_16761 — Como posso cancelar minhas viagens?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16762",
+      "title": "Qual é o limite de cancelamentos/faltas que posso ter?",
+      "text": "A FAQ do Atende+ informa limite de cancelamento de até 25% dos atendimentos disponibilizados e remete ao item 8g do regulamento vigente.",
+      "locator": "#pergunta_16762 — Qual é o limite de cancelamentos/faltas que posso ter?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16763",
+      "title": "O que caracteriza uma falta?",
+      "text": "No Atende+, não realizar a viagem programada sem avisar previamente o cancelamento caracteriza falta.",
+      "locator": "#pergunta_16763 — O que caracteriza uma falta?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16764",
+      "title": "Posso justificar a falta por telefone com um atendente?",
+      "text": "A justificativa de falta no Atende+ exige declaração e atestado, registrados pelo site, por e-mail, carta ou pessoalmente nos postos SPTrans. A resposta não oferece justificativa apenas por telefonema.",
+      "locator": "#pergunta_16764 — Posso justificar a falta por telefone com um atendente?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16765",
+      "title": "Vou ficar afastado do Serviço Atende+ por um longo período. Perco a minha vaga?",
+      "text": "O afastamento do Atende+ é permitido por até 30 dias consecutivos somente para licença médica e internação. Ultrapassado esse período, há suspensão do serviço e o retorno depende de nova solicitação de programação de viagens.",
+      "locator": "#pergunta_16765 — Vou ficar afastado do Serviço Atende+ por um longo período. Perco a minha vaga?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16766",
+      "title": "Estou sem utilizar o Serviço Atende+ há mais de seis meses. Como devo proceder para voltar a utilizá-lo?",
+      "text": "Após mais de seis meses sem usar o Atende+, o retorno exige nova Ficha de Avaliação Médica e Programação de Viagens, como na inscrição inicial.",
+      "locator": "#pergunta_16766 — Estou sem utilizar o Serviço Atende+ há mais de seis meses. Como devo proceder para voltar a utilizá-lo?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16767",
+      "title": "Mudei de residência ou de instituição. O que devo fazer?",
+      "text": "Mudança de residência ou instituição altera a rota do Atende+ e exige nova solicitação de programação de viagens.",
+      "locator": "#pergunta_16767 — Mudei de residência ou de instituição. O que devo fazer?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16768",
+      "title": "Mudei minha programação no Posto de Atendimento da SPTrans. Posso fazer cancelamento das minhas viagens por lá?",
+      "text": "Mesmo após alterar a programação em posto SPTrans, cancelamentos do Atende+ são registrados em atende.sptrans.com.br ou na Central 156.",
+      "locator": "#pergunta_16768 — Mudei minha programação no Posto de Atendimento da SPTrans. Posso fazer cancelamento das minhas viagens por lá?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16769",
+      "title": "Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+      "text": "A FAQ descreve o Atende+ como serviço da SPTrans oferecido exclusivamente a moradores do município de São Paulo. Esse texto não comprova transporte para outro município.",
+      "locator": "#pergunta_16769 — Moro em São Paulo, mas preciso ir para outro município. O Atende+ me leva?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16770",
+      "title": "Para qual finalidade posso utilizar a viagem eventual?",
+      "text": "A viagem eventual do Atende+ atende consultas e exames médicos sem frequência semanal. É permitida uma solicitação no mês, com agendamento de no mínimo 20 dias de antecedência.",
+      "locator": "#pergunta_16770 — Para qual finalidade posso utilizar a viagem eventual?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16771",
+      "title": "Como fico sabendo o horário de embarque da viagem eventual?",
+      "text": "A confirmação de viagem eventual do Atende+ é enviada ao celular cadastrado. Se não chegar até um dia antes, consulte o site ou ligue 156 para saber o horário.",
+      "locator": "#pergunta_16771 — Como fico sabendo o horário de embarque da viagem eventual?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16772",
+      "title": "Pode ocorrer de minha viagem eventual não ser atendida?",
+      "text": "A programação de viagens eventuais do Atende+ também depende de rotas e vagas nos veículos; a solicitação não assegura atendimento.",
+      "locator": "#pergunta_16772 — Pode ocorrer de minha viagem eventual não ser atendida?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16773",
+      "title": "Eu posso ter dois acompanhantes?",
+      "text": "No Atende+ é permitido apenas um acompanhante, com idade de pelo menos 18 anos. Não são permitidos dois acompanhantes.",
+      "locator": "#pergunta_16773 — Eu posso ter dois acompanhantes?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16774",
+      "title": "Autistas e surdocegos precisam de acompanhantes?",
+      "text": "Pessoas autistas e surdocegas precisam obrigatoriamente de acompanhante nas viagens do Atende+.",
+      "locator": "#pergunta_16774 — Autistas e surdocegos precisam de acompanhantes?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16775",
+      "title": "A van/táxi que faz o meu embarque está atrasado. O que faço?",
+      "text": "Para saber a previsão de chegada de veículo atrasado do Atende+, a FAQ orienta solicitar informação à Central 156. O guia documental não acessa esse monitoramento.",
+      "locator": "#pergunta_16775 — A van/táxi que faz o meu embarque está atrasado. O que faço?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16776",
+      "title": "O motorista pode entrar no meu Condomínio?",
+      "text": "A entrada de motorista do Atende+ em condomínio exige carta de autorização do síndico, enviada pelo site ou entregue pessoalmente em posto SPTrans.",
+      "locator": "#pergunta_16776 — O motorista pode entrar no meu Condomínio?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16777",
+      "title": "Minha condição de transporte é na cadeira de rodas, mas ela quebrou. O motorista pode me levar no banco?",
+      "text": "O transporte do Atende+ deve seguir a condição registrada na Ficha de Avaliação Médica apresentada pelo usuário. Uma cadeira de rodas quebrada não autoriza por si só mudar para transporte no banco.",
+      "locator": "#pergunta_16777 — Minha condição de transporte é na cadeira de rodas, mas ela quebrou. O motorista pode me levar no banco?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16778",
+      "title": "Quanto tempo o motorista pode ficar esperando o passageiro para o embarque?",
+      "text": "O motorista do Atende+ aguarda o passageiro por no máximo cinco minutos no embarque; se ele não estiver no local, a orientação é seguir viagem.",
+      "locator": "#pergunta_16778 — Quanto tempo o motorista pode ficar esperando o passageiro para o embarque?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16779",
+      "title": "É importante manter o cadastro, principalmente, o número de telefone atualizado?",
+      "text": "É importante atualizar telefones fixos, celulares e e-mails no cadastro do Atende+, pois a equipe pode enviar avisos a qualquer momento.",
+      "locator": "#pergunta_16779 — É importante manter o cadastro, principalmente, o número de telefone atualizado?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F03",
+      "key": "faq-16780",
+      "title": "Por onde posso registrar reclamações, sugestões ou elogios?",
+      "text": "reclamações, sugestões e elogios sobre o Atende+ podem ser registrados na Central 156, de segunda a domingo.",
+      "locator": "#pergunta_16780 — Por onde posso registrar reclamações, sugestões ou elogios?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24136",
+      "title": "Qual a legislação que concede o benefício a Pessoa com Deficiência?",
+      "text": "A FAQ do Bilhete Único Especial PcD cita as Portarias SMT.GAB 050/2019, SMT/SMS 007/2020 e SMS 022/2024 como normas com critérios de concessão do benefício em São Paulo.",
+      "locator": "#pergunta_24136 — Qual a legislação que concede o benefício a Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24137",
+      "title": "Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "text": "Para solicitar o Bilhete Único Especial PcD, consulte documentos e exames exigidos e obtenha o formulário no Atendimento Digital SPTrans ou em posto. O médico deve preenchê-lo de modo legível, com identificação da patologia, limitações, assinatura, carimbo e data; o solicitante ou representante também assina. O formulário específico SPTrans vale 90 dias. Para deficiência permanente existe formulário oficial SMS próprio. A solicitação depende de análise e não garante aprovação.",
+      "locator": "#pergunta_24137 — Como solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24138",
+      "title": "Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "text": "A solicitação do Bilhete Especial PcD exige documento pessoal com foto, CPF se não constar nele, comprovante de residência de até seis meses e formulário SPTrans ou de laudo permanente SMS preenchido pelo médico. Exames, laudos e outros documentos são exigidos quando previstos no Anexo único de patologias.",
+      "locator": "#pergunta_24138 — Quais os documentos necessários para solicitar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24139",
+      "title": "É possível enviar um representante ao Posto de Atendimento - Bilhete Único Especial para fazer o cadastramento em nome da pessoa com deficiência?",
+      "text": "Para cadastramento presencial do Bilhete Especial PcD, a FAQ orienta o comparecimento pessoal do interessado ao posto com a documentação necessária.",
+      "locator": "#pergunta_24139 — É possível enviar um representante ao Posto de Atendimento - Bilhete Único Especial para fazer o cadastramento em nome da pessoa com deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24140",
+      "title": "É obrigatório que o \"Comprovante de Residência\" esteja em nome da pessoa com deficiência?",
+      "text": "O comprovante de residência do Bilhete Especial PcD não precisa estar no nome da pessoa com deficiência, mas deve corresponder ao local onde ela mora, pois o cartão será enviado ao endereço indicado.",
+      "locator": "#pergunta_24140 — É obrigatório que o \"Comprovante de Residência\" esteja em nome da pessoa com deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24141",
+      "title": "Qual o prazo para entrega do Bilhete Único?",
+      "text": "A previsão de entrega do Bilhete Especial PcD é de até 20 dias a partir da aprovação da solicitação, não a partir do primeiro cadastro.",
+      "locator": "#pergunta_24141 — Qual o prazo para entrega do Bilhete Único?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-69246",
+      "title": "Qual o prazo de análise da solicitação de Bilhete Único da Pessoa com Deficiência?",
+      "text": "Após receber formulário preenchido e toda a documentação médica obrigatória, a equipe médica auditora SPTrans analisa a solicitação do Bilhete PcD em até 20 dias. Pode aprovar, reprovar, pedir complementos ou convocar auditoria presencial.",
+      "locator": "#pergunta_69246 — Qual o prazo de análise da solicitação de Bilhete Único da Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-69247",
+      "title": "Posso usufruir da gratuidade sem estar com o meu Bilhete Único da Pessoa com Deficiência em mãos?",
+      "text": "A gratuidade requer o Bilhete PcD em mãos e ativo, utilizado nos validadores de ônibus, trem ou metrô. O cartão deve ser apresentado à fiscalização, ao motorista ou cobrador quando solicitado.",
+      "locator": "#pergunta_69247 — Posso usufruir da gratuidade sem estar com o meu Bilhete Único da Pessoa com Deficiência em mãos?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24142",
+      "title": "Qual o prazo de validade do Bilhete Único Especial da Pessoa com Deficiência?",
+      "text": "A validade do Bilhete Especial PcD depende da legislação vigente e do CID apresentado; a FAQ não fornece um prazo único para todas as pessoas.",
+      "locator": "#pergunta_24142 — Qual o prazo de validade do Bilhete Único Especial da Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24143",
+      "title": "Como saber se o pedido foi aprovado?",
+      "text": "Após a análise da documentação do Bilhete Especial PcD, a SPTrans informa o status do pedido por e-mail e pelo Atendimento Digital. O guia não consulta a situação individual do pedido.",
+      "locator": "#pergunta_24143 — Como saber se o pedido foi aprovado?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24144",
+      "title": "Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?",
+      "text": "No Bilhete Especial PcD, a reapresentação no mesmo ônibus tem intervalo de 60 minutos; nos bloqueios de metrô ou trem, o intervalo é de 30 minutos.",
+      "locator": "#pergunta_24144 — Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24145",
+      "title": "É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+      "text": "O nome social pode ser solicitado para o Bilhete Especial PcD no Atendimento Digital SPTrans, em Meu Perfil, Meus Dados, no campo correspondente. A FAQ cita o Decreto Municipal 58.228/2018.",
+      "locator": "#pergunta_24145 — É possível personalizar o Bilhete Único Especial da Pessoa com Deficiência com o \"Nome Social\"?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24146",
+      "title": "Outra pessoa pode utilizar ou encostar o meu Bilhete Único no validador?",
+      "text": "O Bilhete Especial PcD é pessoal. Emprestar o cartão ou pedir a outra pessoa que passe na catraca pode causar cancelamento por divergência no reconhecimento facial registrado nas câmeras dos validadores.",
+      "locator": "#pergunta_24146 — Outra pessoa pode utilizar ou encostar o meu Bilhete Único no validador?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24147",
+      "title": "Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+      "text": "Se o Bilhete Especial PcD não chegar em 20 dias, informe o não recebimento no Atendimento SPTrans ou em posto. Pode haver reenvio ao endereço cadastrado ou retirada no Posto Central: Rua Boa Vista, 274, mezanino, Centro, São Paulo, de segunda a sexta, das 8h às 17h, exceto feriados.",
+      "locator": "#pergunta_24147 — Se, passados os 20 dias de prazo para entrega, a pessoa com deficiência não receber seu Bilhete Único, como deve proceder?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24148",
+      "title": "Por que meu Bilhete Único Especial da Pessoa com Deficiência não passa no metrô/trem, somente nos ônibus?",
+      "text": "Alguns Bilhetes Especiais PcD são exclusivos para ônibus municipais de São Paulo. Para verificar essa condição, consulte no verso do cartão a indicação de validade somente nesses ônibus; a FAQ não garante uso de todo cartão em metrô ou trem.",
+      "locator": "#pergunta_24148 — Por que meu Bilhete Único Especial da Pessoa com Deficiência não passa no metrô/trem, somente nos ônibus?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24150",
+      "title": "Quais cuidados são necessários para manter o Bilhete Único da Pessoa com Deficiência em boas condições de uso?",
+      "text": "Para conservar o Bilhete PcD, a orientação é não torcer, furar, cortar, delaminar, plastificar ou morder o cartão; não colocá-lo sob materiais pesados e não expô-lo ao calor excessivo.",
+      "locator": "#pergunta_24150 — Quais cuidados são necessários para manter o Bilhete Único da Pessoa com Deficiência em boas condições de uso?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24151",
+      "title": "Tenho o benefício com direito a acompanhante. Preciso girar a catraca duas vezes quando não estiver acompanhado?",
+      "text": "No Bilhete PcD com direito a acompanhante, a presença do acompanhante é opcional. Quando desacompanhado, o titular deve girar a catraca apenas uma vez.",
+      "locator": "#pergunta_24151 — Tenho o benefício com direito a acompanhante. Preciso girar a catraca duas vezes quando não estiver acompanhado?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24155",
+      "title": "Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "text": "A renovação do Bilhete Especial PcD pode ser solicitada até 60 dias antes do vencimento, em posto ou no Atendimento Digital, com documentação necessária. Para deficiência permanente, exames, laudos e documentos complementares são exigidos na primeira via e não na renovação.",
+      "locator": "#pergunta_24155 — Qual o procedimento para renovar o Bilhete Único Especial da Pessoa com Deficiência?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24158",
+      "title": "Quais os motivos que impedem a emissão de 2ª via do Bilhete?",
+      "text": "Não se emite segunda via do Bilhete Especial PcD quando faltam menos de 60 dias de validade do benefício: nessa situação deve ser solicitada a renovação. O cumprimento de sanção também pode impedir a segunda via.",
+      "locator": "#pergunta_24158 — Quais os motivos que impedem a emissão de 2ª via do Bilhete?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24159",
+      "title": "Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+      "text": "Para bloquear Bilhete Especial PcD perdido, roubado, extraviado ou furtado em São Paulo, o titular deve procurar posto ou ligar 156, com atendimento 24 horas. Em outras cidades, a FAQ indica 0800 550 121 da CPTM, segunda a sexta das 5h às 22h e sábado das 6h às 18h. Após bloquear, a segunda via exige comparecer a posto com identificação, CPF se necessário e comprovante de residência de até seis meses.",
+      "locator": "#pergunta_24159 — Como bloquear o Bilhete Único Especial da Pessoa com Deficiência nos casos de perda, roubo, extravio ou furto?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24160",
+      "title": "Como bloquear um bilhete quebrado, trincado, apresentando mau funcionamento ou sem sinal?",
+      "text": "Bilhete Especial PcD danificado, sem sinal ou com falha deve ser levado a posto para análise. Se não houver correção possível, a SPTrans envia segunda via ao endereço cadastrado e retém o cartão danificado para destruição.",
+      "locator": "#pergunta_24160 — Como bloquear um bilhete quebrado, trincado, apresentando mau funcionamento ou sem sinal?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24164",
+      "title": "Quem já possui o Bilhete Único Especial da Pessoa com Deficiência pode utilizar outros benefícios ao mesmo tempo (Estudante, Vale Transporte)?",
+      "text": "A FAQ não permite acumular isenções tarifárias de pessoa idosa, pessoa com deficiência e estudante. Quando há mais de uma condição, o sistema habilita o benefício mais vantajoso.",
+      "locator": "#pergunta_24164 — Quem já possui o Bilhete Único Especial da Pessoa com Deficiência pode utilizar outros benefícios ao mesmo tempo (Estudante, Vale Transporte)?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-24165",
+      "title": "É necessário comunicar o óbito da pessoa com deficiência para cancelar o benefício?",
+      "text": "O falecimento da pessoa beneficiária do Bilhete Especial PcD deve ser comunicado para cancelar o benefício.",
+      "locator": "#pergunta_24165 — É necessário comunicar o óbito da pessoa com deficiência para cancelar o benefício?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-47471",
+      "title": "O Bilhete Único Especial Pessoa com Deficiência tem algum custo de entrega?",
+      "text": "O fornecimento do Bilhete Especial PcD é gratuito, inclusive a emissão de vias adicionais. A FAQ não informa cobrança de entrega.",
+      "locator": "#pergunta_47471 — O Bilhete Único Especial Pessoa com Deficiência tem algum custo de entrega?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61413",
+      "title": "O que é Deficiência Temporária?",
+      "text": "Na FAQ do Bilhete PcD, deficiência temporária refere-se a limitações reversíveis por cirurgia ou tratamento.",
+      "locator": "#pergunta_61413 — O que é Deficiência Temporária?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61414",
+      "title": "O que é Deficiência Permanente?",
+      "text": "Na FAQ do Bilhete PcD, deficiência permanente é condição estabilizada que impede regressão ou recuperação, sem probabilidade de alteração mesmo com novos tratamentos. O guia não diagnostica pessoas.",
+      "locator": "#pergunta_61414 — O que é Deficiência Permanente?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61418",
+      "title": "A apresentação do Formulário para emissão de Laudo Permanente estabelecido pela SMS garante o benefício de forma permanente?",
+      "text": "Apresentar formulário SMS de laudo permanente não garante benefício permanente. O médico auditor analisa se os requisitos de concessão foram atendidos.",
+      "locator": "#pergunta_61418 — A apresentação do Formulário para emissão de Laudo Permanente estabelecido pela SMS garante o benefício de forma permanente?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61419",
+      "title": "Como saber se a deficiência é permanente?",
+      "text": "O diagnóstico de deficiência permanente é feito pelo médico que acompanha a pessoa, avaliando a condição segundo a legislação. O guia documental não substitui essa avaliação.",
+      "locator": "#pergunta_61419 — Como saber se a deficiência é permanente?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61420",
+      "title": "Quem já tem o benefício e a deficiência é permanente, precisa trocar o cartão para o de Deficiência Permanente?",
+      "text": "Na renovação, quem busca alterar o Bilhete PcD para a categoria de deficiência permanente deve apresentar documentação comprobatória. A mudança depende da análise do médico auditor e do atendimento dos requisitos.",
+      "locator": "#pergunta_61420 — Quem já tem o benefício e a deficiência é permanente, precisa trocar o cartão para o de Deficiência Permanente?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61421",
+      "title": "O Formulário para emissão de Laudo Permanente estabelecido pela SMS pode ser assinado por médico de qualquer especialidade?",
+      "text": "O formulário de solicitação do benefício deve ser preenchido, carimbado e assinado por médico especializado na área relacionada ao diagnóstico, com especialidade pertinente quando necessária.",
+      "locator": "#pergunta_61421 — O Formulário para emissão de Laudo Permanente estabelecido pela SMS pode ser assinado por médico de qualquer especialidade?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61423",
+      "title": "O médico pode utilizar assinatura digital no Formulário de solicitação (SPTrans e SMS)?",
+      "text": "A FAQ permite ao médico usar assinatura digital no formulário de solicitação SPTrans ou SMS do Bilhete PcD.",
+      "locator": "#pergunta_61423 — O médico pode utilizar assinatura digital no Formulário de solicitação (SPTrans e SMS)?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F04",
+      "key": "faq-61426",
+      "title": "É possível utilizar o Bilhete Único da Pessoa com Deficiência - com Acompanhante Cadastrado no  Metrô/Trem sem a presença do titular?",
+      "text": "O Bilhete PcD com Acompanhante Cadastrado só pode ser usado sem o titular nos ônibus municipais e exclusivamente no trajeto residência-escola ou para levar e buscar o titular. Usá-lo sem o titular no metrô ou trem é uso indevido e pode gerar sanções.",
+      "locator": "#pergunta_61426 — É possível utilizar o Bilhete Único da Pessoa com Deficiência - com Acompanhante Cadastrado no  Metrô/Trem sem a presença do titular?",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F05",
+      "key": "equipe",
+      "title": "Metrô: empregados e equipamentos",
+      "text": "A página do Metrô informa que seus empregados recebem treinamento para atender passageiros e operar equipamentos.",
+      "locator": "Serviços para pessoas com deficiência; Atendimento",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F05",
+      "key": "preferencial",
+      "title": "Metrô: público e atendimento preferencial",
+      "text": "No Metrô, o atendimento preferencial alcança pessoas com deficiência, com crianças de colo, idosos, obesos, gestantes, pessoas com restrição de mobilidade e autistas. A página cita compra de bilhetes e passagem pelos bloqueios sem filas, uso de elevadores e assento preferencial nos trens. Essas informações referem-se ao Metrô descrito pela fonte.",
+      "locator": "Atendimento preferencial; público e recursos",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F05",
+      "key": "cao-guia",
+      "title": "Metrô: cão-guia",
+      "text": "Pessoas com deficiência visual acompanhadas de cão-guia podem acessar todas as estações e trens do Metrô, segundo sua página de atendimento preferencial.",
+      "locator": "Atendimento preferencial; cão-guia",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-jabaquara-1",
+      "title": "Sanitários: JABAQUARA — Linha 1-Azul",
+      "text": "Sanitários na estação JABAQUARA, Linha 1-Azul do Metrô. Local: Terminal Rodoviário. Horário publicado: Todos os dias, das 5h à 1h. Administração: SOCICAM. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação JABAQUARA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "JABAQUARA",
+          "Terminal Rodoviário",
+          "Todos os dias, das 5h à 1h",
+          "SOCICAM"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "JABAQUARA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-conceicao-1",
+      "title": "Sanitários: CONCEIÇÃO — Linha 1-Azul",
+      "text": "Sanitários na estação CONCEIÇÃO, Linha 1-Azul do Metrô. Local: Área Livre. Horário publicado: Todos os dias, das 5h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação CONCEIÇÃO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CONCEIÇÃO",
+          "Área Livre",
+          "Todos os dias, das 5h à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "CONCEIÇÃO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-mariana-1",
+      "title": "Sanitários: VILA MARIANA — Linha 1-Azul",
+      "text": "Sanitários na estação VILA MARIANA, Linha 1-Azul do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 5h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação VILA MARIANA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA MARIANA",
+          "Terminal de ônibus",
+          "Todos os dias, das 5h à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "VILA MARIANA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-ana-rosa-1",
+      "title": "Sanitários: ANA ROSA — Linha 1-Azul",
+      "text": "Sanitários na estação ANA ROSA, Linha 1-Azul do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação ANA ROSA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "ANA ROSA",
+          "Terminal de ônibus",
+          "Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "ANA ROSA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-sao-bento-1",
+      "title": "Sanitários: SÃO BENTO — Linha 1-Azul",
+      "text": "Sanitários na estação SÃO BENTO, Linha 1-Azul do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação SÃO BENTO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SÃO BENTO",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h.",
+          "Metrô"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "SÃO BENTO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-luz-1",
+      "title": "Sanitários: LUZ — Linha 1-Azul",
+      "text": "Sanitários na estação LUZ, Linha 1-Azul do Metrô. Local: Mezanino (Área Paga). Horário publicado: Todos os dias, das 6h às 22h. Administração: RZK. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação LUZ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "LUZ",
+          "Mezanino (Área Paga)",
+          "Todos os dias, das 6h às 22h",
+          "RZK"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "LUZ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-armenia-1",
+      "title": "Sanitários: ARMÊNIA — Linha 1-Azul",
+      "text": "Sanitários na estação ARMÊNIA, Linha 1-Azul do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação ARMÊNIA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "ARMÊNIA",
+          "Terminal de ônibus",
+          "Todos os dias, 24h por dia. Entre 22h e 6h a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "ARMÊNIA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-portuguesa-tiete-1",
+      "title": "Sanitários: PORTUGUESA-TIETÊ — Linha 1-Azul",
+      "text": "Sanitários na estação PORTUGUESA-TIETÊ, Linha 1-Azul do Metrô. Local: Terminal Rodoviário (área desembarque). Horário publicado: Todos os dias, 24h por dia. Administração: SOCICAM. Local: Terminal Rodoviário (mezanino). Horário publicado: Todos os dias, 24h por dia. Administração: SOCICAM. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 1-Azul; estação PORTUGUESA-TIETÊ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PORTUGUESA-TIETÊ",
+          "Terminal Rodoviário (área desembarque)",
+          "Todos os dias, 24h por dia",
+          "SOCICAM"
+        ],
+        [
+          "PORTUGUESA-TIETÊ",
+          "Terminal Rodoviário (mezanino)",
+          "Todos os dias, 24h por dia",
+          "SOCICAM"
+        ]
+      ],
+      "line": "1-Azul",
+      "station": "PORTUGUESA-TIETÊ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-madalena-2",
+      "title": "Sanitários: VILA MADALENA — Linha 2-Verde",
+      "text": "Sanitários na estação VILA MADALENA, Linha 2-Verde do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação VILA MADALENA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA MADALENA",
+          "Terminal de ônibus",
+          "Todos os dias, das 6h à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "VILA MADALENA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-clinicas-2",
+      "title": "Sanitários: CLÍNICAS — Linha 2-Verde",
+      "text": "Sanitários na estação CLÍNICAS, Linha 2-Verde do Metrô. Local: Mezanino (Área Paga). Horário publicado: Todos os dias, das 6h às 22h. Administração: Ductus. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação CLÍNICAS",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CLÍNICAS",
+          "Mezanino (Área Paga)",
+          "Todos os dias, das 6h às 22h",
+          "Ductus"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "CLÍNICAS"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-consolacao-2",
+      "title": "Sanitários: CONSOLAÇÃO — Linha 2-Verde",
+      "text": "Sanitários na estação CONSOLAÇÃO, Linha 2-Verde do Metrô. Local: Corredor entre o Metrô e a Linha 4 (Área Paga). Horário publicado: Todos os dias, das 6h às 22h. Administração: Ductus. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação CONSOLAÇÃO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CONSOLAÇÃO",
+          "Corredor entre o Metrô e a Linha 4 (Área Paga)",
+          "Todos os dias, das 6h às 22h",
+          "Ductus"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "CONSOLAÇÃO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-trianon-2",
+      "title": "Sanitários: TRIANON — Linha 2-Verde",
+      "text": "Sanitários na estação TRIANON, Linha 2-Verde do Metrô. Local: Mezanino Leste. Horário publicado: Todos os dias, das 6h às 22h. Administração: Ductus. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação TRIANON",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "TRIANON",
+          "Mezanino Leste",
+          "Todos os dias, das 6h às 22h",
+          "Ductus"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "TRIANON"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-brigadeiro-2",
+      "title": "Sanitários: BRIGADEIRO — Linha 2-Verde",
+      "text": "Sanitários na estação BRIGADEIRO, Linha 2-Verde do Metrô. Local: Mezanino Leste. Horário publicado: Todos os dias, das 6h às 20:30h. Administração: Ductus. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação BRIGADEIRO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "BRIGADEIRO",
+          "Mezanino Leste",
+          "Todos os dias, das 6h às 20:30h",
+          "Ductus"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "BRIGADEIRO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-paraiso-2",
+      "title": "Sanitários: PARAÍSO — Linha 2-Verde",
+      "text": "Sanitários na estação PARAÍSO, Linha 2-Verde do Metrô. Local: Área Livre. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação PARAÍSO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PARAÍSO",
+          "Área Livre",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "PARAÍSO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-chacara-klabin-2",
+      "title": "Sanitários: CHÁCARA KLABIN — Linha 2-Verde",
+      "text": "Sanitários na estação CHÁCARA KLABIN, Linha 2-Verde do Metrô. Local: Mezanino de interligação com a Linha 5-Lilás. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação CHÁCARA KLABIN",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CHÁCARA KLABIN",
+          "Mezanino de interligação com a Linha 5-Lilás",
+          "Todos os dias, das 4h40 à 0h.",
+          "Metrô"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "CHÁCARA KLABIN"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-sacoma-2",
+      "title": "Sanitários: SACOMÃ — Linha 2-Verde",
+      "text": "Sanitários na estação SACOMÃ, Linha 2-Verde do Metrô. Local: Área Livre. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação SACOMÃ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SACOMÃ",
+          "Área Livre",
+          "Todos os dias, das 4h40 à 0h",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "SACOMÃ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-tamanduatei-2",
+      "title": "Sanitários: TAMANDUATEÍ — Linha 2-Verde",
+      "text": "Sanitários na estação TAMANDUATEÍ, Linha 2-Verde do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 2-Verde; estação TAMANDUATEÍ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "TAMANDUATEÍ",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "2-Verde",
+      "station": "TAMANDUATEÍ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-corinthians-itaquera-3",
+      "title": "Sanitários: CORINTHIANS-ITAQUERA — Linha 3-Vermelha",
+      "text": "Sanitários na estação CORINTHIANS-ITAQUERA, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, das 5h à 1h. Administração: Shopping Itaquera. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação CORINTHIANS-ITAQUERA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CORINTHIANS-ITAQUERA",
+          "Terminal de ônibus",
+          "Todos os dias, das 5h à 1h",
+          "Shopping Itaquera"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "CORINTHIANS-ITAQUERA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-artur-alvim-3",
+      "title": "Sanitários: ARTUR ALVIM — Linha 3-Vermelha",
+      "text": "Sanitários na estação ARTUR ALVIM, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação ARTUR ALVIM",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "ARTUR ALVIM",
+          "Terminal de ônibus sul",
+          "Todos os dias, das 6h à 0h",
+          "Metrô"
+        ],
+        [
+          "ARTUR ALVIM",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "ARTUR ALVIM"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-patriarca-vila-re-3",
+      "title": "Sanitários: PATRIARCA- VILA RÉ — Linha 3-Vermelha",
+      "text": "Sanitários na estação PATRIARCA- VILA RÉ, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias das 6h à 0h. Administração: Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação PATRIARCA- VILA RÉ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PATRIARCA- VILA RÉ",
+          "Terminal de ônibus sul",
+          "Todos os dias das 6h à 0h",
+          "Metrô"
+        ],
+        [
+          "PATRIARCA- VILA RÉ",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "PATRIARCA- VILA RÉ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-guilhermina-esperanca-3",
+      "title": "Sanitários: GUILHERMINA-ESPERANÇA — Linha 3-Vermelha",
+      "text": "Sanitários na estação GUILHERMINA-ESPERANÇA, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias das 6h às 22h. Administração: Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, das 6h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação GUILHERMINA-ESPERANÇA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "GUILHERMINA-ESPERANÇA",
+          "Terminal de ônibus sul",
+          "Todos os dias das 6h às 22h",
+          "Metrô"
+        ],
+        [
+          "GUILHERMINA-ESPERANÇA",
+          "Terminal de ônibus norte",
+          "Todos os dias, das 6h à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "GUILHERMINA-ESPERANÇA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-matilde-3",
+      "title": "Sanitários: VILA MATILDE — Linha 3-Vermelha",
+      "text": "Sanitários na estação VILA MATILDE, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação VILA MATILDE",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA MATILDE",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "VILA MATILDE"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-penha-lojas-besni-3",
+      "title": "Sanitários: PENHA-LOJAS BESNI — Linha 3-Vermelha",
+      "text": "Sanitários na estação PENHA-LOJAS BESNI, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. Local: Terminal de ônibus sul. Horário publicado: Todos os dias, das 5h à 0h. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação PENHA-LOJAS BESNI",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PENHA-LOJAS BESNI",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ],
+        [
+          "PENHA-LOJAS BESNI",
+          "Terminal de ônibus sul",
+          "Todos os dias, das 5h à 0h.",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "PENHA-LOJAS BESNI"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-carrao-assai-atacadista-3",
+      "title": "Sanitários: CARRÃO-ASSAÍ ATACADISTA — Linha 3-Vermelha",
+      "text": "Sanitários na estação CARRÃO-ASSAÍ ATACADISTA, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação CARRÃO-ASSAÍ ATACADISTA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CARRÃO-ASSAÍ ATACADISTA",
+          "Terminal de ônibus sul",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ],
+        [
+          "CARRÃO-ASSAÍ ATACADISTA",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "CARRÃO-ASSAÍ ATACADISTA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-tatuape-3",
+      "title": "Sanitários: TATUAPÉ — Linha 3-Vermelha",
+      "text": "Sanitários na estação TATUAPÉ, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação TATUAPÉ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "TATUAPÉ",
+          "Terminal de ônibus sul",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ],
+        [
+          "TATUAPÉ",
+          "Terminal de ônibus norte",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "TATUAPÉ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-belem-3",
+      "title": "Sanitários: BELÉM — Linha 3-Vermelha",
+      "text": "Sanitários na estação BELÉM, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus sul. Horário publicado: Todos os dias, das 5h à 0h. Administração: Metrô. Local: Terminal de ônibus norte. Horário publicado: Todos os dias, das 5h à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação BELÉM",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "BELÉM",
+          "Terminal de ônibus sul",
+          "Todos os dias, das 5h à 0h",
+          "Metrô"
+        ],
+        [
+          "BELÉM",
+          "Terminal de ônibus norte",
+          "Todos os dias, das 5h à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "BELÉM"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-bras-3",
+      "title": "Sanitários: BRÁS — Linha 3-Vermelha",
+      "text": "Sanitários na estação BRÁS, Linha 3-Vermelha do Metrô. Local: Terminal de ônibus. Horário publicado: Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal. Administração: Concessionária do Terminal. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação BRÁS",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "BRÁS",
+          "Terminal de ônibus",
+          "Todos os dias, 24 horas por dia. Entre 22h e 6h, a utilização é feita mediante solicitação ao vigilante do terminal",
+          "Concessionária do Terminal"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "BRÁS"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-pedro-ii-3",
+      "title": "Sanitários: PEDRO II — Linha 3-Vermelha",
+      "text": "Sanitários na estação PEDRO II, Linha 3-Vermelha do Metrô. Local: Área Livre. Horário publicado: Todos os dias, das 6h às 21h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação PEDRO II",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PEDRO II",
+          "Área Livre",
+          "Todos os dias, das 6h às 21h",
+          "Metrô"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "PEDRO II"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-se-3",
+      "title": "Sanitários: SÉ — Linha 3-Vermelha",
+      "text": "Sanitários na estação SÉ, Linha 3-Vermelha do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação SÉ",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SÉ",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "SÉ"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-palmeiras-barra-funda-3",
+      "title": "Sanitários: PALMEIRAS-BARRA FUNDA — Linha 3-Vermelha",
+      "text": "Sanitários na estação PALMEIRAS-BARRA FUNDA, Linha 3-Vermelha do Metrô. Local: Área Livre. Horário publicado: Todos os dias, das 5h à 0h. Administração: Metrô. Local: Terminal Rodoviário. Horário publicado: Todos os dias, 24 horas por dia. Administração: SOCICAM. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 3-Vermelha; estação PALMEIRAS-BARRA FUNDA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "PALMEIRAS-BARRA FUNDA",
+          "Área Livre",
+          "Todos os dias, das 5h à 0h",
+          "Metrô"
+        ],
+        [
+          "PALMEIRAS-BARRA FUNDA",
+          "Terminal Rodoviário",
+          "Todos os dias, 24 horas por dia",
+          "SOCICAM"
+        ]
+      ],
+      "line": "3-Vermelha",
+      "station": "PALMEIRAS-BARRA FUNDA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-prudente-15",
+      "title": "Sanitários: VILA PRUDENTE — Linha 15-Prata",
+      "text": "Sanitários na estação VILA PRUDENTE, Linha 15-Prata do Metrô. Local: Área Paga – Área de Transferência para a Linha 2-Verde. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação VILA PRUDENTE",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA PRUDENTE",
+          "Área Paga – Área de Transferência para a Linha 2-Verde",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "VILA PRUDENTE"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-oratorio-15",
+      "title": "Sanitários: ORATÓRIO — Linha 15-Prata",
+      "text": "Sanitários na estação ORATÓRIO, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação ORATÓRIO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "ORATÓRIO",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "ORATÓRIO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-sao-lucas-15",
+      "title": "Sanitários: SÃO LUCAS — Linha 15-Prata",
+      "text": "Sanitários na estação SÃO LUCAS, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação SÃO LUCAS",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SÃO LUCAS",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "SÃO LUCAS"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-camilo-haddad-15",
+      "title": "Sanitários: CAMILO HADDAD — Linha 15-Prata",
+      "text": "Sanitários na estação CAMILO HADDAD, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação CAMILO HADDAD",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "CAMILO HADDAD",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "CAMILO HADDAD"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-tolstoi-15",
+      "title": "Sanitários: VILA TOLSTÓI — Linha 15-Prata",
+      "text": "Sanitários na estação VILA TOLSTÓI, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação VILA TOLSTÓI",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA TOLSTÓI",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "VILA TOLSTÓI"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-vila-uniao-15",
+      "title": "Sanitários: VILA UNIÃO — Linha 15-Prata",
+      "text": "Sanitários na estação VILA UNIÃO, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação VILA UNIÃO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "VILA UNIÃO",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "VILA UNIÃO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-jardim-planalto-15",
+      "title": "Sanitários: JARDIM PLANALTO — Linha 15-Prata",
+      "text": "Sanitários na estação JARDIM PLANALTO, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação JARDIM PLANALTO",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "JARDIM PLANALTO",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "JARDIM PLANALTO"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-sapopemba-15",
+      "title": "Sanitários: SAPOPEMBA — Linha 15-Prata",
+      "text": "Sanitários na estação SAPOPEMBA, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação SAPOPEMBA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SAPOPEMBA",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "SAPOPEMBA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-fazenda-da-juta-15",
+      "title": "Sanitários: FAZENDA DA JUTA — Linha 15-Prata",
+      "text": "Sanitários na estação FAZENDA DA JUTA, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação FAZENDA DA JUTA",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "FAZENDA DA JUTA",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "FAZENDA DA JUTA"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-sao-mateus-15",
+      "title": "Sanitários: SÃO MATEUS — Linha 15-Prata",
+      "text": "Sanitários na estação SÃO MATEUS, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação SÃO MATEUS",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "SÃO MATEUS",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "SÃO MATEUS"
+    },
+    {
+      "source_id": "F06",
+      "key": "sanitario-jardim-colonial-15",
+      "title": "Sanitários: JARDIM COLONIAL — Linha 15-Prata",
+      "text": "Sanitários na estação JARDIM COLONIAL, Linha 15-Prata do Metrô. Local: Área Paga. Horário publicado: Todos os dias, das 4h40 à 0h. Administração: Metrô. São informações documentais; não confirmam disponibilidade neste momento.",
+      "locator": "Tabela Linha 15-Prata; estação JARDIM COLONIAL",
+      "representation": "curated_summary",
+      "table_records": [
+        [
+          "JARDIM COLONIAL",
+          "Área Paga",
+          "Todos os dias, das 4h40 à 0h",
+          "Metrô"
+        ]
+      ],
+      "line": "15-Prata",
+      "station": "JARDIM COLONIAL"
+    },
+    {
+      "source_id": "F06",
+      "key": "gratuidade",
+      "title": "Metrô: sanitários acessíveis e gratuitos",
+      "text": "A página do Metrô informa que todos os seus sanitários públicos são acessíveis e de uso gratuito. A existência no documento não comprova que um sanitário esteja aberto agora.",
+      "locator": "Sanitários Públicos; afirmação introdutória",
+      "representation": "curated_summary"
+    },
+    {
+      "source_id": "F07",
+      "key": "art-46",
+      "title": "LBI: art. 46 — transporte e mobilidade",
+      "text": "A Lei 13.146/2015 assegura o direito ao transporte e à mobilidade em igualdade de oportunidades, removendo obstáculos e barreiras. Nos serviços de transporte coletivo, a acessibilidade abrange veículos, terminais, estações, paradas, sistema viário e prestação do serviço. A colocação do símbolo internacional de acesso depende de certificação do gestor público responsável.",
+      "locator": "Lei 13.146/2015, art. 46; PDF página 16",
+      "representation": "curated_summary",
+      "page": 16
+    },
+    {
+      "source_id": "F07",
+      "key": "art-47",
+      "title": "LBI: art. 47 — transporte e mobilidade",
+      "text": "O art. 47 da Lei 13.146/2015 exige vagas sinalizadas próximas aos acessos de pedestres para veículos que transportem pessoa com deficiência com comprometimento de mobilidade, devidamente identificados. A reserva é de 2% do total, com mínimo de uma vaga. A credencial deve ficar visível, é vinculada à pessoa e tem validade nacional. O uso indevido sujeita às sanções legais.",
+      "locator": "Lei 13.146/2015, art. 47; PDF página 16–17",
+      "representation": "curated_summary",
+      "page": 16
+    },
+    {
+      "source_id": "F07",
+      "key": "art-48",
+      "title": "LBI: art. 48 — transporte e mobilidade",
+      "text": "O art. 48 da Lei 13.146/2015 exige acessibilidade nos veículos de transporte coletivo terrestre, aquaviário e aéreo, instalações, estações, portos e terminais em operação no País. Exige comunicação acessível com informações de todos os pontos do itinerário e assegura prioridade e segurança no embarque e desembarque. O símbolo internacional de acesso depende de certificação do gestor público.",
+      "locator": "Lei 13.146/2015, art. 48; PDF página 17",
+      "representation": "curated_summary",
+      "page": 17
+    },
+    {
+      "source_id": "F07",
+      "key": "art-49",
+      "title": "LBI: art. 49 — transporte e mobilidade",
+      "text": "Na renovação de suas frotas, empresas de transporte de fretamento e turismo devem cumprir os arts. 46 e 48 da Lei 13.146/2015, conforme seu art. 49.",
+      "locator": "Lei 13.146/2015, art. 49; PDF página 17",
+      "representation": "curated_summary",
+      "page": 17
+    },
+    {
+      "source_id": "F07",
+      "key": "art-50",
+      "title": "LBI: art. 50 — transporte e mobilidade",
+      "text": "O art. 50 da Lei 13.146/2015 prevê incentivo do poder público à fabricação de veículos acessíveis e ao seu uso como táxis e vans para uso por todas as pessoas.",
+      "locator": "Lei 13.146/2015, art. 50; PDF página 17",
+      "representation": "curated_summary",
+      "page": 17
+    },
+    {
+      "source_id": "F07",
+      "key": "art-51",
+      "title": "LBI: art. 51 — transporte e mobilidade",
+      "text": "O art. 51 da Lei 13.146/2015 exige que frotas de empresas de táxi reservem 10% de veículos acessíveis. É proibido cobrar tarifa diferenciada ou valor adicional pelo serviço de táxi prestado à pessoa com deficiência. O poder público pode instituir incentivos fiscais à acessibilidade desses veículos.",
+      "locator": "Lei 13.146/2015, art. 51; PDF página 17",
+      "representation": "curated_summary",
+      "page": 17
+    },
+    {
+      "source_id": "F07",
+      "key": "art-52",
+      "title": "LBI: art. 52 — transporte e mobilidade",
+      "text": "O art. 52 da Lei 13.146/2015 obriga locadoras a oferecer um veículo adaptado a cada conjunto de 20 veículos da frota. O veículo deve ter pelo menos câmbio automático, direção hidráulica, vidros elétricos e comandos manuais de freio e embreagem.",
+      "locator": "Lei 13.146/2015, art. 52; PDF página 17",
+      "representation": "curated_summary",
+      "page": 17
+    }
+  ],
+  "decisions": [
+    {
+      "issue": "F03 omite exceção de feriados na apresentação",
+      "decision": "Excluir apresentação duplicada F03-faq-16755; F01-apresentacao preserva exceção explícita de F01/F02."
+    },
+    {
+      "issue": "Vargem Paulista versus Várzea Paulista na FAQ Bilhete",
+      "decision": "Excluir listas municipais F04 perguntas24134,24135,61424. Não desambiguar sem norma verificada."
+    },
+    {
+      "issue": "Regulamento PDF2017",
+      "decision": "Não incorporado como fonte operacional; não presumir vigência de procedimentos antigos."
+    },
+    {
+      "issue": "F05 tabela de embarque preferencial",
+      "decision": "Não incorporar tabelas de embarque nesta versão; corpus contém apenas público, equipe e cão-guia."
+    },
+    {
+      "issue": "F06 Linha17",
+      "decision": "Recorte documental limita tabelas sanitários às Linhas1,2,3,15. Não inferir ausência de sanitários nas demais linhas."
+    },
+    {
+      "issue": "PDF LBI páginas16–17",
+      "decision": "Extração pypdf e renderização PyMuPDF conferidas visualmente. Art47 continua na página17; notas editoriais excluídas. Sínteses próprias, não transcrição literal."
+    }
+  ],
+  "review": {
+    "method": "Conferência documental por trabalhador de IA; sem revisão humana declarada",
+    "sources": "Snapshots oficiais coletados com TLS em 2026-11-12",
+    "tables": "Expansão exclusivamente de rowspan explícito, agrupamento por estação, linha, local, horário e administração. Relações inspecionadas no HTML original.",
+    "corrections": [
+      "Conservação do bilhete: excluída umidade, ausente da FAQ24150.",
+      "Acompanhante opcional: ação preservada como girar a catraca uma vez na FAQ24151."
+    ]
+  }
+}
