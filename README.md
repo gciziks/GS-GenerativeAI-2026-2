@@ -1,7 +1,7 @@
 # Guia de Mobilidade Acessível
 
 Consulta documental local sobre Atende+, Bilhete Único Especial PcD, acessibilidade do Metrô de São Paulo e transporte na Lei Brasileira de Inclusão. A LLM local seleciona evidências verificáveis e reconhece cobertura parcial, ausência de informação e limites de atuação. Não consulta operação em tempo real nem decide elegibilidade individual.
-
+##  Vídeo: [Youtube](https://www.youtube.com/watch?v=ch2NyjDuYlQ).
 ## Grupo
 - Cassio Valezzi RM551059
 - Gabriel Antony Cadima Ciziks RM98215
@@ -79,7 +79,5 @@ Snapshot entregue: 114 trechos de sete fontes oficiais, 100 casos e rodada final
 - [Relatório em sete partes](docs/RELATORIO.md), [metodologia](docs/METODOLOGIA.md) e [operação](docs/OPERACAO.md).
 - [Corpus e proveniência](base/manifesto.json), [partições](avaliacao/particoes.json), [calibração](avaliacao/calibracao/), [rodadas brutas](avaliacao/resultados/), [placar](avaliacao/placar.csv) e [cinco erros reais](avaliacao/erros_reais.md).
 - Três [notebooks com outputs](notebooks/) e [evidências da interface/modelo](docs/evidencias/).
-
-Resultados pertencem à nova base oficial. A auditoria automática é identificada e não representa revisão humana; campos não avaliáveis permanecem explícitos. Desempenho e limitações estão no relatório, sem garantia de nota. Repositório privado preservado. Vídeo: [apresentação e demonstração](https://www.youtube.com/watch?v=ch2NyjDuYlQ).
 
 
