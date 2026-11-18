@@ -75,6 +75,6 @@ Snapshot entregue: 114 trechos de sete fontes oficiais, 100 casos e rodada final
 - [Corpus e proveniência](base/manifesto.json), [partições](avaliacao/particoes.json), [calibração](avaliacao/calibracao/), [rodadas brutas](avaliacao/resultados/), [placar](avaliacao/placar.csv) e [cinco erros reais](avaliacao/erros_reais.md).
 - Três [notebooks com outputs](notebooks/) e [evidências da interface/modelo](docs/evidencias/).
 
-Resultados pertencem à nova base oficial. A auditoria automática é identificada e não representa revisão humana; campos não avaliáveis permanecem explícitos. Desempenho e limitações estão no relatório, sem garantia de nota. Repositório privado preservado. Vídeo: link pendente de gravação e fornecimento pelo usuário.
+Resultados pertencem à nova base oficial. A auditoria automática é identificada e não representa revisão humana; campos não avaliáveis permanecem explícitos. Desempenho e limitações estão no relatório, sem garantia de nota. Repositório privado preservado. Vídeo: [apresentação e demonstração](https://www.youtube.com/watch?v=ch2NyjDuYlQ).
 
 Cassio Valezzi RM551059 · Gabriel Antony Cadima Ciziks RM98215 · Lucca Sabatini Tambellini RM98169 · Victor Nuzzi RM98209.

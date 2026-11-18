@@ -266,4 +266,4 @@ Contexto, saída bruta, gabarito, condições e fontes completos: `avaliacao/err
 
 A aplicação oferece consulta documental verificável, mantendo visíveis limites de cobertura, custos e falhas reais. Metas de engenharia não garantem pontuação. Nenhum ajuste posterior ao teste é apresentado como independente.
 
-Repositório privado: https://github.com/gciziks/GS-GenerativeAI-2026-2. API local: http://127.0.0.1:8002. Vídeo: link pendente de gravação e fornecimento pelo usuário; não bloqueia reprodução do código.
+Repositório privado: https://github.com/gciziks/GS-GenerativeAI-2026-2. API local: http://127.0.0.1:8002. Vídeo: [apresentação e demonstração](https://www.youtube.com/watch?v=ch2NyjDuYlQ).

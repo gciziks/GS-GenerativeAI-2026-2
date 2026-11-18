@@ -87,7 +87,7 @@ def main():
   lines[start:start]=detail
  (ROOT/'avaliacao/erros_reais.json').write_text(json.dumps(errors,ensure_ascii=False,indent=2),encoding='utf8')
  (ROOT/'avaliacao/erros_reais.md').write_text('\n'.join(lines[lines.index('## 6. Cinco erros reais e correções propostas'):]),encoding='utf8')
- lines+=['## 7. Conclusão e links','','A aplicação oferece consulta documental verificável, mantendo visíveis limites de cobertura, custos e falhas reais. Metas de engenharia não garantem pontuação. Nenhum ajuste posterior ao teste é apresentado como independente.','','Repositório privado: https://github.com/gciziks/GS-GenerativeAI-2026-2. API local: http://127.0.0.1:8002. Vídeo: link pendente de gravação e fornecimento pelo usuário; não bloqueia reprodução do código.']
+ lines+=['## 7. Conclusão e links','','A aplicação oferece consulta documental verificável, mantendo visíveis limites de cobertura, custos e falhas reais. Metas de engenharia não garantem pontuação. Nenhum ajuste posterior ao teste é apresentado como independente.','','Repositório privado: https://github.com/gciziks/GS-GenerativeAI-2026-2. API local: http://127.0.0.1:8002. Vídeo: [apresentação e demonstração](https://www.youtube.com/watch?v=ch2NyjDuYlQ).']
  # Gráfico estático exportável, derivado do mesmo resumo.
  os.environ['MPLCONFIGDIR']=str(ROOT/'.runtime/matplotlib')
  import matplotlib
